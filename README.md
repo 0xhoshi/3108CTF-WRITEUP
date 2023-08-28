@@ -2,10 +2,10 @@
 ---------------------------------------------------------------------------
 ## __Categories__
 
-- [**TUGASAN UTAMA : WARKAH UNTUK PERWIRA**](#TUGASAN-UTAMA-:-WARKAH-UNTUK-PERWIRA)
-  - [Tugasan I : Seruan Perwira](#Tugasan-I-:-Seruan-Perwira)
-  - [Tugasan II : Tali Barut](#Tugasan-II-:-Tali-Barut)
-  - [Tugasan III : Pangkalan Gelap](#Tugasan-III-:-Pangkalan-Gelap)
+- [**TUGASAN UTAMA : WARKAH UNTUK PERWIRA**](#TUGASAN-UTAMA--WARKAH-UNTUK-PERWIRA)
+  - [Tugasan I : Seruan Perwira](#Tugasan-I--Seruan-Perwira)
+  - [Tugasan II : Tali Barut](#Tugasan-II--Tali-Barut)
+  - [Tugasan III : Pangkalan Gelap](#Tugasan-III--Pangkalan-Gelap)
 
 <!-- [**TUGASAN SAMPINGAN (OSINT)**](#TUGASAN-SAMPINGAN-(OSINT))
   - [Pertemuan Kapista : Babak I (Mudah)](#Pertemuan-Kapista-:-Babak-I-(Mudah))
