@@ -361,7 +361,7 @@ Gunakan [Wayback Machine](https://archive.org/web/) untuk mengakses kandungan ya
 
 ```Bendera : 3108{r3d4_d4r1_kis4h_l4m4}```
 
-- ## Mesej Dalam Botol (Sederhana)
+- ### Mesej Dalam Botol (Sederhana)
 
 ![mesej](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Mesej%20Dalam%20Botol%20(Sederhana)/MESEJDALAMBOTOL.png?raw=true)
 
@@ -385,7 +385,7 @@ tulisan yang terdapat di sisi gambar tersebut adalah dalam bentuk [ROT47](https:
 
 ```Bendera : 3108{D3W1~K1R4N4}```
 
-- ## Saya Di Mana (Mudah)
+- ### Saya Di Mana (Mudah)
 
 ![saya di mana](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Saya%20di%20Mana%20(Mudah)/SAYADIMANA.png?raw=true)
 
@@ -393,7 +393,7 @@ tulisan yang terdapat di sisi gambar tersebut adalah dalam bentuk [ROT47](https:
 
 Menggunakan maklumat yang diberikan di deskripsi dan di dalam gambar, lokasi yang dimaksudkan ialah ```Dataran Pahlawan Melaka```.
 
-Cari ```Dataran Pahlawan Melaka di Google Maps dan lihat "Reviews" terkini.
+Cari ```Dataran Pahlawan Melaka``` di Google Maps dan lihat "Reviews" terkini.
 
 ![saya di mana](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Saya%20di%20Mana%20(Mudah)/Screenshot%202023-08-29%20005351.png?raw=true)
 
