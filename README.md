@@ -1,4 +1,4 @@
-![PERTEMUANKAPISTA3](https://github.com/0xhoshi/3108CTF-WRITEUP/assets/68049551/30c0f7cb-641f-42d1-baa5-2940fcb08bf3)# WRITEUP-3108CTF
+# WRITEUP-3108CTF
 ---------------------------------------------------------------------------
 ## __KATEGORI__
 
