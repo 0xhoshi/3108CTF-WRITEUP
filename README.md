@@ -328,3 +328,66 @@ Ubah tarikh tersebut kepada ```31082023``` dan gunakan sebagai kata laluan.
 ![kapistapb](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20Finale/Screenshot%202023-08-28%20235438.png?raw=true)
 
 ```Bendera : 3108{Pulau_Mabul}```
+
+- ### Hero Melayu (Mudah)
+
+![heromelayu](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Hero%20Melayu%20(Mudah)/HEROMELAYU.png?raw=true)
+
+Telah disertakan dua hashtag di dalam deskripsi tugasan ini : ```#3108ctf #pempengaruhsiber```
+
+Cari dua hashtag ini di media sosial Tiktok lalu akan muncul akaun tersebut :
+
+![heromelayu1](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Hero%20Melayu%20(Mudah)/Screenshot%202023-08-29%20001252.png?raw=true)
+
+Lihat satu persatu kiriman di akaun tersebut dan kita akan peroleh bendera.
+
+![heromelayu1](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Hero%20Melayu%20(Mudah)/Screenshot%202023-08-29%20001406.png?raw=true)
+
+```Bendera : 3108{m3d14_m4ss4l4h}```
+
+- ### Kisah Lama (Mudah)
+
+![kisahlama](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Kisah%20Lama%20(Mudah)/KISAHLAMA.png?raw=true)
+
+Kita dibekalkan dengan satu pautan yang telah dibuang kandungannya :
+
+![kisahlama](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Kisah%20Lama%20(Mudah)/Screenshot%202023-08-29%20002152.png?raw=true)
+
+Gunakan [Wayback Machine](https://archive.org/web/) untuk mengakses kandungan yang telah dibuang.
+
+![kisahlama](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Kisah%20Lama%20(Mudah)/Screenshot%202023-08-29%20002247.png?raw=true)
+
+![kisahlama](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Kisah%20Lama%20(Mudah)/Screenshot%202023-08-29%20002337.png?raw=true)
+
+```Bendera : 3108{r3d4_d4r1_kis4h_l4m4}```
+
+- ## Mesej Dalam Botol (Sederhana)
+
+![mesej](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Mesej%20Dalam%20Botol%20(Sederhana)/MESEJDALAMBOTOL.png?raw=true)
+
+Kita diberi satu gambar dan satu fail rar yang memerlukan kata laluan.
+
+Cari gambar tersebut di [Google Images](https://www.google.com/imghp?hl=en) untuk memperoleh maklumat tentang bahtera tersebut.
+
+![mesej](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Mesej%20Dalam%20Botol%20(Sederhana)/Screenshot%202023-08-29%20003521.png?raw=true)
+
+Bahtera Pertiwi kelihatan sepadan dengan gambar yang dibekalkan.
+
+![mesej](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Mesej%20Dalam%20Botol%20(Sederhana)/Screenshot%202023-08-29%20003633.png?raw=true)
+
+Tahun pembinaannya ialah 2014.
+
+Masukkan ```BAHTERAPERTIWI_2014``` sebagai kata laluan bagi "botol" dan kita akan peroleh gambar berikut :
+
+
+tulisan yang terdapat di sisi gambar tersebut adalah dalam bentuk [ROT47](https://www.dcode.fr/rot-47-cipher), decode dan peroleh bendera.
+
+```Bendera : 3108{D3W1~K1R4N4}```
+
+- ## Saya Di Mana (Mudah)
+
+![saya di mana](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Saya%20di%20Mana%20(Mudah)/SAYADIMANA.png?raw=true)
+
+![saya di mana](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Saya%20di%20Mana%20(Mudah)/saya_dimana.jpg?raw=true)
+
+Menggunakan maklumat yang diberikan di deskripsi dan di dalam gambar, lokasi yang dimaksudkan ialah ```Dataran Pahlawan Melaka```.
