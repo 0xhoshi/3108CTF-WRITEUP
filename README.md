@@ -379,6 +379,7 @@ Tahun pembinaannya ialah 2014.
 
 Masukkan ```BAHTERAPERTIWI_2014``` sebagai kata laluan bagi "botol" dan kita akan peroleh gambar berikut :
 
+![mesej](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Mesej%20Dalam%20Botol%20(Sederhana)/Screenshot%202023-08-29%20003954.png?raw=true)
 
 tulisan yang terdapat di sisi gambar tersebut adalah dalam bentuk [ROT47](https://www.dcode.fr/rot-47-cipher), decode dan peroleh bendera.
 
@@ -391,3 +392,11 @@ tulisan yang terdapat di sisi gambar tersebut adalah dalam bentuk [ROT47](https:
 ![saya di mana](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Saya%20di%20Mana%20(Mudah)/saya_dimana.jpg?raw=true)
 
 Menggunakan maklumat yang diberikan di deskripsi dan di dalam gambar, lokasi yang dimaksudkan ialah ```Dataran Pahlawan Melaka```.
+
+Cari ```Dataran Pahlawan Melaka di Google Maps dan lihat "Reviews" terkini.
+
+![saya di mana](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Saya%20di%20Mana%20(Mudah)/Screenshot%202023-08-29%20005351.png?raw=true)
+
+![saya di mana](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Saya%20di%20Mana%20(Mudah)/Screenshot%202023-08-29%20005428.png?raw=true)
+
+```Bendera : 3108{d4tar4n_p4hl4w4n}```
