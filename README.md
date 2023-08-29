@@ -35,13 +35,13 @@
   - [3108 CTF Town (Sederhana)](#3108-CTF-Town-Sederhana)
   - [Nasi Lemak 1 Juta (Mudah)](#Nasi-Lemak-1-Juta-Mudah)
  
-<!-- [**TUGASAN SAMPINGAN (STEGA)**](#TUGASAN-SAMPINGAN-(STEGA))
-  - [Tugu Negara (Sederhana)](#Tugu-Negara-(Sederhana))
-  - [Jalur Gemilang (Mudah)](#Jalur-Gemilang-(Mudah))
-  - [Hari Keramat (Mudah)](#Hari-Keramat-(Mudah))
-  - [Uncover (Sederhana)](#Uncover-(Sederhana))
+- [**TUGASAN SAMPINGAN (STEGA)**](#TUGASAN-SAMPINGAN-STEGA)
+  - [Tugu Negara (Sederhana)](#Tugu-Negara-Sederhana)
+  - [Jalur Gemilang (Mudah)](#Jalur-Gemilang-Mudah)
+  - [Hari Keramat (Mudah)](#Hari-Keramat-Mudah)
+  - [Uncover (Sederhana)](#Uncover-Sederhana)
  
-- [**TUGASAN SAMPINGAN (NETWORK)**](#TUGASAN-SAMPINGAN-(NETWORK))
+<!-- [**TUGASAN SAMPINGAN (NETWORK)**](#TUGASAN-SAMPINGAN-(NETWORK))
   - [Johan (Mudah)](#Johan-(Mudah))
   - [Lagi-Lagi Johan (Mudah)](#Lagi-Lagi-Johan-(Mudah))
   - [Jalan Jalan Di Kuala Lumpur (Mudah)](#Jalan-Jalan-Di-Kuala-Lumpur-(Mudah))
@@ -790,11 +790,11 @@ Dengan itu, kita boleh gunakan [Cheat Engine](https://www.cheatengine.org/downlo
 
 Kita dibekalkan dengan satu gambar berupa tugu negara.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Tugu%20Negara%20(Sederhana)/TUGUNEGARA.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Tugu%20Negara%20(Sederhana)/Tugu-Negara.png?raw=true)
 
 Lihat strings gambar yang diberi menggunakan alat seperti [AperiSolve](https://www.aperisolve.com/) dan peroleh bendera.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Tugu%20Negara%20(Sederhana)/TUGUNEGARA.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Tugu%20Negara%20(Sederhana)/Screenshot%202023-08-30%20004242.png?raw=true)
 
 ```Bendera : 3108{7ugu_n3g4r4}```
 
@@ -804,9 +804,11 @@ Lihat strings gambar yang diberi menggunakan alat seperti [AperiSolve](https://w
 
 Kita dibekalkan dengan gambar berikut :
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Hari%20Keramat%20(Mudah)/HARIKERAMAT.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Hari%20Keramat%20(Mudah)/merdeka7.jpg?raw=true)
 
 Naikkan keterangan gambar tersebut sehingga zahirnya tulisan di dalam gambar.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Hari%20Keramat%20(Mudah)/image(4).jpg?raw=true)
 
 Gunakan [Steganographic Decoder](https://futureboy.us/stegano/decinput.html) untuk decode gambar dengan ```angKaRahs1a``` sebagai kata laluan.
 
@@ -834,7 +836,7 @@ begitu juga langit.Menurut raja Mohd Yusof Raja Othman,ia seolah angka keramat y
 
 Kita dibekalkan dengan gambar seperti berikut :
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Hari%20Keramat%20(Mudah)/HARIKERAMAT.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Uncover%20(Sederhana)/merdeka.png?raw=true)
 
 Kotak-kotak warna-warni yang terdapat pada bucu kanan dan bucu kiri gambar merupakan [HexaHue Cipher](https://www.dcode.fr/hexahue-cipher).
 
