@@ -667,3 +667,119 @@ Selamat menyambut hari kemerdekaan ke-66!
 ```
 
 ```Bendera : 3108{MT832Jf4MMUxKCj53LCjyKYwQZYVdGXyNzZQuKQSGB7bMuHZFgfBu64cr7UjDnYjbjAZZG8}```
+
+## TUGASAN SAMPINGAN (MISC)
+
+- ### Mencari Rahsia Si Dia (Mudah)
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Mencari%20Rahsia%20Si%20Dia%20(Mudah)/MENCARIRAHSIASIDIA.png?raw=true)
+
+Kita diberikan dengan satu teks panjang berbentuk spam :
+
+```
+Dear Colleague , This letter was specially selected 
+to be sent to you ! We will comply with all removal 
+requests . This mail is being sent in compliance with 
+Senate bill 1621 ; Title 4 , Section 309 ! Do NOT confuse 
+us with Internet scam artists ! Why work for somebody 
+else when you can become rich as few as 10 WEEKS . 
+Have you ever noticed most everyone has a cellphone 
+& most everyone has a cellphone ! Well, now is your 
+chance to capitalize on this ! WE will help YOU use 
+credit cards on your website and decrease perceived 
+waiting time by 140% ! You can begin at absolutely 
+no cost to you ! But don't believe us ! Prof Ames of 
+Alaska tried us and says "Now I'm rich, Rich, RICH" 
+. We assure you that we operate within all applicable 
+laws . You will blame yourself forever if you don't 
+order now . Sign up a friend and you'll get a discount 
+of 40% . Thanks ! Dear Sir or Madam ; This letter was 
+specially selected to be sent to you . If you no longer 
+wish to receive our publications simply reply with 
+a Subject: of "REMOVE" and you will immediately be 
+removed from our mailing list ! This mail is being 
+sent in compliance with Senate bill 1620 , Title 3 
+; Section 302 . This is different than anything else 
+you've seen . Why work for somebody else when you can 
+become rich in 49 months ! Have you ever noticed people 
+will do almost anything to avoid mailing their bills 
+& society seems to be moving faster and faster ! Well, 
+now is your chance to capitalize on this . We will 
+help you decrease perceived waiting time by 150% plus 
+SELL MORE . You are guaranteed to succeed because we 
+take all the risk ! But don't believe us ! Prof Jones 
+who resides in Tennessee tried us and says "Now I'm 
+rich many more things are possible" ! We are licensed 
+to operate in all states ! You have no reason not to 
+act now . Sign up a friend and you get half off . Thanks 
+. Dear Friend , This letter was specially selected 
+to be sent to you . If you no longer wish to receive 
+our publications simply reply with a Subject: of "REMOVE" 
+and you will immediately be removed from our club ! 
+This mail is being sent in compliance with Senate bill 
+1620 , Title 6 , Section 305 ! This is not multi-level 
+marketing ! Why work for somebody else when you can 
+become rich in 38 weeks . Have you ever noticed how 
+many people you know are on the Internet and nearly 
+every commercial on television has a .com on in it 
+! Well, now is your chance to capitalize on this ! 
+WE will help YOU deliver goods right to the customer's 
+doorstep plus increase customer response by 160% ! 
+You can begin at absolutely no cost to you . But don't 
+believe us ! Prof Simpson who resides in Idaho tried 
+us and says "I was skeptical but it worked for me" 
+! We are licensed to operate in all states ! We IMPLORE 
+you - act now . Sign up a friend and you'll get a discount 
+of 30% . Thanks .
+```
+"Apa benda ni ??", ya, saya pun rasa begitu ketika menyelesaikan tugasan ini.
+
+Decode teks di atas menggunakan [Spamimic](https://www.spammimic.com/decode.shtml) dan peroleh bendera.
+
+```Bendera : 3108{sebuah_erti_pengorbanan}```
+
+- ### Pesan Tentang Bicara (Sederhana)
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Pesan%20Tentang%20Bicara%20(Sederhana)/PESANTENTANGBICARA.png?raw=true)
+
+Kita diberikan satu gambar seperti berikut :
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Pesan%20Tentang%20Bicara%20(Sederhana)/PESANTENTANGBICARA.png?raw=true)
+
+Terdapat [Morse Code](https://morsedecoder.com/) di dalam gambar, decode dan kita peroleh :
+
+```3108 NILQEP_CIZOPSW_FGMEPK```
+
+Teks ini adalah dalam bentuk [Vigenere Cipher](https://www.dcode.fr/vigenere-cipher), Decode dengan kunci ```KEY``` dan peroleh bendera.
+
+```Bendera : 3108{DENGAR_SEBELUM_BICARA}```
+
+- ### 3108 CTF Town (Sederhana)
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/3108%20CTF%20Town%20(Sederhana)/3108CTFTOWN.png?raw=true)
+
+Kita diberikan satu fail GBA yang berupa permainan video.
+
+Main permainan video ini menggunakan GBA Emulator dan peroleh bendera.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Pesan%20Tentang%20Bicara%20(Sederhana)/PESANTENTANGBICARA.png?raw=true)
+
+```Bendera : 3108{b4ntu_4m4l4n_mul1a}```
+
+- ### Nasi Lemak 1 Juta (Mudah)
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Nasi%20Lemak%201%20Juta%20(Mudah)/NASILEMAK1JUTA.png?raw=true)
+
+Untuk tugasan ini, kita diberikan fail ```.exe``` seperti berikut :
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Nasi%20Lemak%201%20Juta%20(Mudah)/NASILEMAK1JUTA.png?raw=true)
+
+untuk mendapatkan bahan rahsia, kita memerlukan 1 juta nasi lemak, tidaklah berdaya jari ini untuk menekan sehingga memperoleh 1 juta nasi lemak.
+
+Dengan itu, kita boleh gunakan [Cheat Engine](https://www.cheatengine.org/downloads.php) untuk menukar nilai nasi lemak menjadi 1 juta lalu memperoleh bahan rahsia.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Nasi%20Lemak%201%20Juta%20(Mudah)/NASILEMAK1JUTA.png?raw=true)
+
+```Bendera : 3108(B2148ED1A1EA228DD33363B6D1134063B59B62DB)```
+
+## TUGASAN SAMPINGAN (STEGA)
