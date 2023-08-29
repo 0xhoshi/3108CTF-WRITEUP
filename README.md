@@ -16,13 +16,13 @@
   - [Mesej Dalam Botol (Sederhana)](#Mesej-Dalam-Botol-Sederhana)
   - [Saya Di Mana (Mudah)](#Saya-Di-Mana-Mudah)
  
-<!-- [**TUGASAN SAMPINGAN (WEB)**](#TUGASAN-SAMPINGAN-(WEB))
+- [**TUGASAN SAMPINGAN (WEB)**](#TUGASAN-SAMPINGAN-(WEB))
   - [Lemah (Mudah)](#Lemah-(Mudah))
   - [Wantujus (Mudah)](#Wantujus-(Mudah))
   - [Wantusom (Sederhana)](#Wantusom-(Sederhana))
   - [Pantun Pantul (Sederhana)](#Pantun-Pantul-(Sederhana)) 
 
-- [**TUGASAN SAMPINGAN (CRYPTOGRAPHY)**](#TUGASAN-SAMPINGAN-(CRYPTOGRAPHY))
+<!-- [**TUGASAN SAMPINGAN (CRYPTOGRAPHY)**](#TUGASAN-SAMPINGAN-(CRYPTOGRAPHY))
   - [Nasihat (Mudah)](#Nasihat-(Mudah))
   - [Selamat Malam (Sederhana)](#Selamat-Malam-(Sederhana))
   - [Keretapi Tanah Melayu 🚂 (Mudah)](#Keretapi-Tanah-Melayu--(Mudah))
@@ -235,7 +235,9 @@ Tetapi, maklumat yang kelihatan menarik adalah :
 
 2) Laman sesawang ini menggunakan ```textpattern cms```
 
-3) Komen yang ditinggalkan di source code, iaitu ```komen```
+3) Komen yang ditinggalkan di source code, iaitu ```rok14h@l33t```
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
 
 Kerana laman sesawang ini menggunakan ```textpattern cms```, pastinya terdapat direktori log masuk bagi pengarang.
 
@@ -243,7 +245,7 @@ Jalankan directory scanning pada domain dan kita peroleh direktori ```/textpatte
 
 ![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
 
-Memasukkan ```Rok14h``` sebagai nama pengguna dan ```komen``` sebagai kata laluan akan memberi kita akses sebagai admin laman sesawang.
+Memasukkan ```rok14h``` sebagai nama pengguna dan ```rok14h@l33t``` sebagai kata laluan akan memberi kita akses sebagai admin laman sesawang.
 
 Untuk execute os command ke dalam machine mereka, muat naik reverse shell di bahagian "files".
 
@@ -299,7 +301,7 @@ Pergi ke Telegram Lanang Kusrani dan kita akan peroleh bendera.
 
 Kacak juga Hassan Tapa, Tidak seperti kelakuannya yang jelik.
 
-- ## Pertemuan Kapista : Finale (Mudah)
+- ### Pertemuan Kapista : Finale (Mudah)
 
 ![kapista3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20Finale/PERTEMUANKAPISTA3.png?raw=true)
 
@@ -400,3 +402,111 @@ Cari ```Dataran Pahlawan Melaka``` di Google Maps dan lihat "Reviews" terkini.
 ![saya di mana](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Saya%20di%20Mana%20(Mudah)/Screenshot%202023-08-29%20005428.png?raw=true)
 
 ```Bendera : 3108{d4tar4n_p4hl4w4n}```
+
+## TUGASAN SAMPINGAN (WEB)
+
+- ### Lemah (Mudah)
+
+![lemah](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Lemah%20(Mudah)/LEMAH.png?raw=true)
+
+Kita dibekalkan dengan satu pautan ```lemah.bahterasiber.my```.
+
+Pergi ke pautan ini dan kita akan disapa dengan laman log masuk.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+
+Lihat source laman ini dan lihat kod untuk ```auth.js```.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+
+```
+$(".c_submit").click(function(event) {
+  event.preventDefault();
+  var u = $("#cuser").val();
+  var p = $("#cpass").val();
+  if (u === "Jati" && p === String.fromCharCode(51,49,48,56,123,112,52,115,115,119,48,114,100,95,108,51,109,52,104,33,125)) {
+    if (document.location.href.indexOf("?p=") === -1) {
+      document.location = document.location.href + "?p=" + p;
+    }
+  } else {
+    $("#cresponse").html("<div class='alert alert-danger'>Wrong password sorry.</div>");
+  }
+});
+```
+Kod ini hanya menerima input dengan nama pengguna ```Jati``` dan kata laluan ```String.fromCharCode(51,49,48,56,123,112,52,115,115,119,48,114,100,95,108,51,109,52,104,33,125)```
+
+Run function ini dan peroleh bendera.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+
+```Bendera : 3108{p4ssw0rd_l3m4h!}```
+
+- ### Wantujus (Mudah)
+
+![lemah](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Lemah%20(Mudah)/LEMAH.png?raw=true)
+
+pautan yang diberikan membawa kita ke laman berikut :
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+
+Kalahkan Pakwan dengan memilih mana-mana antara tiga pilihan sehingga menang 10 kali.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+
+Lihat biskut yang diberi menggunakan [Cookie Editor](https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm).
+
+Biskut yang diberi adalah dalam bentuk [BASE64](https://www.base64decode.org/), decode dan peroleh bendera.
+
+```Bendera : 3108{biskut_marie}```
+
+- ### Wantusom (Sederhana)
+
+![lemah](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantusom%20(Sederhana)/WANTUSOM.png?raw=true)
+
+laman ini saman seperti Wantujus, tetapi kali ini kemenangan kita mustahil untuk melebihi 9 kali.
+
+Lihat source untuk lihat bagaimana laman ini berfungsi.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+
+tukar nilai 9 ke nombor yang lebih besar pada baris kod ini untuk menang dan peroleh biskut.
+
+```
+ if (winCount === 9) {
+    computerChoice = getUnbeatableChoice(playerChoice);
+  }
+```
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+```
+ if (winCount === 11) {
+    computerChoice = getUnbeatableChoice(playerChoice);
+  }
+```
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+
+Biskut adalah dalam bentuk [BASE64](https://www.base64decode.org/), decode dan peroleh bendera.
+
+```Bendera : 3108{biskut_tiger}```
+
+- ### Pantun Pantul (Sederhana)
+
+![lpantun](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Pantun%20Pantul%20(Sederhana)/PANTUNPANTUL.png?raw=true)
+
+Laman ini meminta kita untuk melengkapkan pantun yang diberi.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+
+Lihat source untuk mengetahui lebih lanjut tentang laman ini.
+
+fungsi ```bendera()``` ini akan memberikan kita bendera apabila digunakan.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+
+Run function ```bendera()``` dan peroleh bendera.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+
+```Bendera : 3108{pantun1337kerat}```
+
