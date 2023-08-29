@@ -756,13 +756,13 @@ Teks ini adalah dalam bentuk [Vigenere Cipher](https://www.dcode.fr/vigenere-cip
 
 - ### 3108 CTF Town (Sederhana)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/3108%20CTF%20Town%20(Sederhana)/photo_2023-08-29_23-52-06.jpg?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/3108%20CTF%20Town%20(Sederhana)/3108CTFTOWN.png?raw=true)
 
 Kita diberikan satu fail GBA yang berupa permainan video.
 
 Main permainan video ini menggunakan GBA Emulator dan peroleh bendera.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Pesan%20Tentang%20Bicara%20(Sederhana)/PESANTENTANGBICARA.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/3108%20CTF%20Town%20(Sederhana)/photo_2023-08-29_23-52-06.jpg?raw=true)
 
 ```Bendera : 3108{b4ntu_4m4l4n_mul1a}```
 
