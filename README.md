@@ -524,11 +524,11 @@ Tugasan ini memberikan kita dua fail untuk dimuat turun, salah satunya merupakan
 
 Muat turun dua fail ini dalam satu direktori dan lihat kod python yang diberi.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Nasihat%20(Mudah)/Screenshot%202023-08-29%20223123.png?raw=true)
 
 Run kod ini dan masukkan kata laluan seperti yang tertera di dalam kod.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Nasihat%20(Mudah)/Screenshot%202023-08-29%20223323.png?raw=true)
 
 ```Bendera : 3108{rukun_n3g4r4_adlh_p3nt!ng}```
 
@@ -630,13 +630,13 @@ selepas·peperangan·berakhir.·Selepas·pembukaan·laluan·kereta·api·Taiping
 
 Tugasan ini memberikan kita satu gambar yang terdiri daripada "Music Sheet".
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Jerebu%20(Sederhana)/JEREBU.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Jerebu%20(Sederhana)/Jerebu.png?raw=true)
 
 Ini merupakan [Music Sheet Cipher](https://www.dcode.fr/music-sheet-cipher), melihat kepada bilangan karakter yang perlu di-decode, tidaklah rajin untuk saya decode satu persatu.
 
 Maka, saya cari "notes-notes" yang kelihatan lain daripada yang lain berpotensi menjadi nombor format bendera```3108```.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Jerebu%20(Sederhana)/JEREBU.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Jerebu%20(Sederhana)/21.png?raw=true)
 
 "notes" di atas terlihat janggal, decode dan kita akan peroleh bendera.
 
