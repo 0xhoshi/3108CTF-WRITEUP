@@ -852,9 +852,9 @@ Decode dan peroleh bendera.
 
 Fail yang diberikan boleh dianalisis menggunakan alat seperti [Wireshark](https://www.wireshark.org/).
 
-Letak tapisan kepada ```http``` dan buka fail ```newuser.php```.
+Tukar tapisan kepada ```http``` dan buka fail ```newuser.php```.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Johan%20(Mudah)/JOHAN.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Johan%20(Mudah)/Screenshot%202023-08-30%20012210.png?raw=true)
 
 ```
 HTML Form URL Encoded: application/x-www-form-urlencoded
@@ -877,7 +877,7 @@ Kita akan memperoleh satu pautan iaitu :
 
 Pergi ke pautan dan peroleh bendera.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Johan%20(Mudah)/JOHAN.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Johan%20(Mudah)/Screenshot%202023-08-30%20012333.png?raw=true)
 
 ```Bendera : 3108{KU4L4_LUMPUR}```
 
@@ -889,7 +889,7 @@ Gunakan [Wireshark](https://www.wireshark.org/) untuk menganalisis fail yang dib
 
 Selepas melihat paket satu persatu, fail ```userinfo.php``` mempunyai bendera di dalamnya.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Lagi-Lagi%20Johan%20(Mudah)/LAGILAGIJOHAN.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Lagi-Lagi%20Johan%20(Mudah)/Screenshot%202023-08-30%20013544.png?raw=true)
 
 ```Bendera : 3108{P4TR10T1C}```
 
@@ -899,18 +899,18 @@ Selepas melihat paket satu persatu, fail ```userinfo.php``` mempunyai bendera di
 
 Gunakan [Wireshark](https://www.wireshark.org/) untuk export http dan kita akan peroleh fail-fail berikut :
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/JALANJALANDIKUALALUMPUR.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/Screenshot%202023-08-30%20014143.png?raw=true)
 
 Bahagian pertama bendera terletak pada ```.----%20-----.pdf```.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/JALANJALANDIKUALALUMPUR.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/Screenshot%202023-08-30%20014403.png?raw=true)
 
 Bahagian kedua bendera terletak pada ```flag.txt```
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/JALANJALANDIKUALALUMPUR.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/Screenshot%202023-08-30%20014231.png?raw=true)
 
 Bahagian ketiga bendera terletak pada ```galeri.png```
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/JALANJALANDIKUALALUMPUR.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/galeri.png?raw=true)
 
 ```Bendera : 3108{B4P4_M4L4YS1A}```
