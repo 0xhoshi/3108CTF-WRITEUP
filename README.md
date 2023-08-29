@@ -22,20 +22,20 @@
   - [Wantusom (Sederhana)](#Wantusom-Sederhana)
   - [Pantun Pantul (Sederhana)](#Pantun-Pantul-Sederhana) 
 
-<!-- [**TUGASAN SAMPINGAN (CRYPTOGRAPHY)**](#TUGASAN-SAMPINGAN-(CRYPTOGRAPHY))
-  - [Nasihat (Mudah)](#Nasihat-(Mudah))
-  - [Selamat Malam (Sederhana)](#Selamat-Malam-(Sederhana))
-  - [Keretapi Tanah Melayu 🚂 (Mudah)](#Keretapi-Tanah-Melayu--(Mudah))
-  - [Jerebu (Sederhana)](#Jerebu-(Sederhana))
-  - [1957bit (Sederhana)](#1957bit-(Sederhana))
+- [**TUGASAN SAMPINGAN (CRYPTOGRAPHY)**](#TUGASAN-SAMPINGAN-CRYPTOGRAPHY)
+  - [Nasihat (Mudah)](#Nasihat-Mudah)
+  - [Selamat Malam (Sederhana)](#Selamat-Malam-Sederhana)
+  - [Keretapi Tanah Melayu 🚂 (Mudah)](#Keretapi-Tanah-Melayu--Mudah)
+  - [Jerebu (Sederhana)](#Jerebu-Sederhana)
+  - [1957bit (Sederhana)](#1957bit-Sederhana)
 
-- [**TUGASAN SAMPINGAN (MISC)**](#TUGASAN-SAMPINGAN-(MISC))
-  - [Mencari Rahsia Si Dia (Mudah)](#Mencari-Rahsia-Si-Dia-(Mudah))
-  - [Pesan Tentang Bicara (Sederhana)](#Pesan-Tentang-Bicara-(Sederhana))
-  - [3108 CTF Town (Sederhana)](#3108-CTF-Town-(Sederhana))
-  - [Nasi Lemak 1 Juta (Mudah)](#Nasi-Lemak-1-Juta-(Mudah))
+- [**TUGASAN SAMPINGAN (MISC)**](#TUGASAN-SAMPINGAN-MISC)
+  - [Mencari Rahsia Si Dia (Mudah)](#Mencari-Rahsia-Si-Dia-Mudah)
+  - [Pesan Tentang Bicara (Sederhana)](#Pesan-Tentang-Bicara-Sederhana)
+  - [3108 CTF Town (Sederhana)](#3108-CTF-Town-Sederhana)
+  - [Nasi Lemak 1 Juta (Mudah)](#Nasi-Lemak-1-Juta-Mudah)
  
-- [**TUGASAN SAMPINGAN (STEGA)**](#TUGASAN-SAMPINGAN-(STEGA))
+<!-- [**TUGASAN SAMPINGAN (STEGA)**](#TUGASAN-SAMPINGAN-(STEGA))
   - [Tugu Negara (Sederhana)](#Tugu-Negara-(Sederhana))
   - [Jalur Gemilang (Mudah)](#Jalur-Gemilang-(Mudah))
   - [Hari Keramat (Mudah)](#Hari-Keramat-(Mudah))
@@ -437,7 +437,7 @@ Kod ini hanya menerima input dengan nama pengguna ```Jati``` dan kata laluan ```
 
 Run function ini dan peroleh bendera.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Lemah%20(Mudah)/Screenshot%202023-08-29%20211021.png?raw=true)
 
 ```Bendera : 3108{p4ssw0rd_l3m4h!}```
 
@@ -514,3 +514,156 @@ Run function ```bendera()``` dan peroleh bendera.
 
 ```Bendera : 3108{pantun1337kerat}```
 
+## TUGASAN SAMPINGAN (CRYPTOGRAPHY)
+
+- ### Nasihat (Mudah)
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Nasihat%20(Mudah)/NASIHAT.png?raw=true)
+
+Tugasan ini memberikan kita dua fail untuk dimuat turun, salah satunya merupakan fail yang ditulis dalam bahasa pengaturcaraan python.
+
+Muat turun dua fail ini dalam satu direktori dan lihat kod python yang diberi.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+
+Run kod ini dan masukkan kata laluan seperti yang tertera di dalam kod.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+
+```Bendera : 3108{rukun_n3g4r4_adlh_p3nt!ng}```
+
+- ### Selamat Malam (Sederhana)
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Selamat%20Malam%20(Sederhana)/SELAMATMALAM.png?raw=true)
+
+Kita dibekalkan dengan satu teks fail yang isinya adalah seperti berikut :
+
+```
+<Senandung Lena>
+
+nzhrs wzozn rmtzgzmpf, dzqzs gzmtrhnf hzzg pf yvipzgz
+zpf gzppzm k3imzs nvny1zipzmnf kvitr
+hzzg hvn0z yzbzmtzm 8znkri nvnfwzipzm hrmzinf
+pzf pzgz pvkzwzpf, qzmtzm grmttzopzmpf hvmwrirzm wr hrmr
+mznfm nzozn rmr, hvnfzmbz gvozs yrmzhz wzm kvitr
+
+
+gfgfkozs Nzgznf
+hzmt gvqZ nzOzn zpzm gryz
+pzf zpzm yzrp-yzrp hzqZ
+grwzp zwz Bzmt yzpzo nvmbzprgrnf Hvpzizmt
+hzzg wzgzmtmbz pvovnzbzi uzqzi
+pzf wzm zpf zpzm hvoznzg
+
+
+qzmtzm pzf yvizmR nvorszg pvofzi qvmwvoZnf
+hzbZmt, hvnfzmbz hvwzmt Nzizp gviyzpzi
+kvizmt wr ofzi tzkfiZ zpzM gvifh yvitlozp
+kvtzmtozs oztf kvmtzmgzi ovmz rmr
+pvmwzgrkfm hzzg hvmzmwfmt rmr ovmbzk
+
+
+kvqznpzm nzgznf
+hzmt gvqz nzozn zpzm gryz
+pzf zpzm yzrp-yzrp hzqz
+grwzp zwz bzmt yzpzo nvmbzprgrnf hvpzizmt
+hzzg gviyrgmbz ilmz uzqzi
+prgz kzhgr zpzm hvqzsgviz
+```
+
+teks yang diberikan adalah dalam bentuk [Atbash Cipher](https://www.dcode.fr/atbash-cipher), decode dan kita akan peroleh teks berikut :
+
+```
+masih dalam ingatanku, wajah tangismu saat ku berkata
+aku takkan p3rnah memb1arkanmu pergi
+saat sem0a bayangan 8ampir memudarkan sinarmu
+kau kata kepadaku, jangan tinggalkanku sendirian di sini
+namun malam ini, semuanya telah binasa dan pergi
+
+
+tutuplah Matamu
+sang tejA maLam akan tiba
+kau akan baik-baik sajA
+tidak ada Yang bakal menyakitimu Sekarang
+saat datangnya kelemayar fajar
+kau dan aku akan selamat
+
+
+jangan kau beranI melihat keluar jendelAmu
+sayAng, semuanya sedang Marak terbakar
+perang di luar gapurA akaN terus bergolak
+peganglah lagu pengantar lena ini
+kendatipun saat senandung ini lenyap
+
+
+pejamkan matamu
+sang teja malam akan tiba
+kau akan baik-baik saja
+tidak ada yang bakal menyakitimu sekarang
+saat terbitnya rona fajar
+kita pasti akan sejahtera
+```
+Asingkan nombor dan huruf besar daripada teks tersebut dan gabungkan untuk peroleh bendera.
+
+```Bendera : 3108{MALASIAAMAN}```
+
+- ### Keretapi Tanah Melayu 🚂 (Mudah)
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Keretapi%20Tanah%20Melayu%20(Mudah)/KERETAPI.png?raw=true)
+
+Tugasan ini juga memberikan kita satu fail teks yang kandungannya adalah seperti berikut :
+
+```
+Sistem kereta api di Tanah Melayu bermula pada 1 Jun 1885 apabila jajaran keretapi yang pertama di Tanah Melayu sepanjang 8.25 batu (13.28 km) antara Taiping dengan Port Weld dibuka secara rasmi. Dibina menggunakan tolok meter, laluan ini dibina untuk mengangkut bijih timah daripada lombong-lombong di Taiping ke laut di Port Weld. Landasan di laluan ini pernah diangkut untuk pembinaan Landasan Kereta Api Burma semasa pendudukan Jepun di Tanah Melayu tetapi diganti semula sppraeh·e·baanr··p-tlbr·uktpe··aemgiul·i·aeut·uktpebaaanaKam·gb·a·te8·uKt·gUgebP·k)niadu·1anlAnpR·gb·ah1,l·lurw·gb·aNm·2aanau·tmniad·a8·e·ulaeaiisuanaaenraatn03{qlzulvu1u0pnpuy=eea·eeagnbrki.Slpspmuanlla·eeaaiTiigPr·ed·eeaalla·eeaaibbsdntdkbrabn·anmnu·isktrTnhMly.naalla·eeaaitreu·dlhlla·ln-ul·upryn·iuapd·5Spebr18,lla·eeaiSne·jn·Srma-otDcsn·agdbk·aaJli19,lla·eu·no-aa·odyn·iuapd·au·83·aunKaaLmu-aagyn·iuapd··oebr19,dnlla·riBktMraa·agdbk·aa1Jli19.Ksmalla-aunkrt·p·n·iabnknatr·ridna·eebnpd·au·93·18aVY5bFZlZdclcFZhaFYFdRbVZJcVZla=}lspn·areaek·uktpanoW,bpanr··aai·sul·cdeaa·aAranr··sta·uKgaLuadka1em·6anrpuio(enrioy·up·a8·uTksThaadkatn9lau·pRnadka7ve8··uP-iejy·up·u·9euanl·eaidmg·aP·gSm·ah1.0HWWGWmm2mmWmX2GQ
+```
+Teks yang kelihatan mengarut tersebut adalah dalam bentuk [Rail Fence Cipher](https://www.boxentriq.com/code-breaking/rail-fence-cipher), decode dan kita akan peroleh teks seperti berikut :
+
+```
+selepas·peperangan·berakhir.·Selepas·pembukaan·laluan·kereta·api·Taiping-Port·Weld,·beberapa·laluan·kereta·api·bebas·dan·tidak·bersambung·lain·muncul·di·sekitar·Tanah·Melayu.Antara·laluan·kereta·api·tersebut·adalah·laluan·Klang-Kuala·Lumpur·yang·dibuka·pada·15·September·1886,·laluan·Keretapi·Sungei·Ujong·(Seremban-Port·Dickson)·yang·dibuka·pada·Julai·1891,·laluan·Teluk·Anson-Tapah·Road·yang·dibuka·pada·tahun·1893,·laluan·Kuala·Lumpur-Rawang·yang·dibuka·pada·7·November·1892,·dan·laluan·Prai-Bukit·Mertajam·yang·dibuka·pada·1·Julai·1899.·Kesemua·laluan-laluan·kereta·api·ini·disambungkan·antara·Prai·dengan·Seremban·pada·tahun·1903.·3108{aHVqYW5lbWFzZGluZWdlcmlvcmFuZ2h1amFuYmF0dWRpbmVnZXJpc2VuZGlyaQ==}
+```
+
+```Bendera : 3108{aHVqYW5lbWFzZGluZWdlcmlvcmFuZ2h1amFuYmF0dWRpbmVnZXJpc2VuZGlyaQ==}```
+
+- ### Jerebu (Sederhana)
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Jerebu%20(Sederhana)/JEREBU.png?raw=true)
+
+Tugasan ini memberikan kita satu gambar yang terdiri daripada "Music Sheet".
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Jerebu%20(Sederhana)/JEREBU.png?raw=true)
+
+Ini merupakan [Music Sheet Cipher](https://www.dcode.fr/music-sheet-cipher), melihat kepada bilangan karakter yang perlu di-decode, tidaklah rajin untuk saya decode satu persatu.
+
+Maka, saya cari "notes-notes" yang kelihatan lain daripada yang lain berpotensi menjadi nombor format bendera```3108```.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Jerebu%20(Sederhana)/JEREBU.png?raw=true)
+
+"notes" di atas terlihat janggal, decode dan kita akan peroleh bendera.
+
+```Bendera : 3108{P3RJ4NJNASEAN}```
+
+- ### 1957bit (Sederhana)
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Jerebu%20(Sederhana)/JEREBU.png?raw=true)
+
+Kita diberikan satu fail teks yang berbentuk binary seperti berikut :
+
+```
+01111100 01011100 01000111 01010011 01010100 01010010 01010100 00010111 01011010 01010000 01000001 01010110 00010001 01010001 01010100 01000101 01011000 00011001 01011100 01011001 01011000 00011001 01010111 01000010 01011010 01011000 01011011 00010111 01011010 01011100 01000111 01010110 01011111 01011000 00010101 01011001 01010000 01001010 01011100 01010101 00010001 01011101 01011100 01010110 01011111 01001101 01010100 01000101 01010000 00011001 01000110 01011110 01010111 01011000 01000111 00010111 01010101 01011000 01011011 00010111 01000010 01011000 01000001 01000010 00011101 00110011 01100001 01010010 01000101 01011000 01000101 01011110 00010001 01010010 01010000 01000101 01010000 01010111 01010100 00010111 01000001 01011100 01000111 01011101 01000100 01011000 01011011 01010000 01010000 01010111 00010101 01000111 01010100 01001011 01000010 01011110 01000011 01011000 00010101 01001110 01010000 01010111 01010010 00010111 01011011 01010000 01000010 01010110 00010001 01011101 01010100 01011001 00010001 01010001 01010100 01000011 01011000 01010111 01001100 01010110 00010001 01011011 01010000 01000101 01000010 01011000 01000001 01000010 00011111 00110011 01100110 01010010 01011101 01011000 01011000 01010110 01000101 00011001 01011000 01010010 01011111 01000000 01010100 01011010 01010011 01001100 01000001 00010111 01011001 01011000 01000111 01011110 00010001 01010010 01010000 01011010 01010100 01001011 01010001 01010010 01011010 01011000 01010100 01011001 00010001 01010010 01010000 00011010 00000111 00001111 00010100 00111101 00000010 00001000 00000101 00001111 01001010 01110100 01100001 00001111 00000010 00001011 01111111 01010001 00000101 01110100 01111000 01100010 01001001 01110010 01110110 01011101 00000100 00001010 01111001 01110100 01011011 01000000 01111110 01101110 01000110 01101000 01101111 01101110 01100111 01011101 01110010 01101111 01001000 01110111 01001111 01101101 01100000 01001100 01111110 01100110 01100010 01111110 01110111 00000000 01010011 01110100 01000000 01111111 01101011 01111111 01010010 01010001 01110011 01001100 00000011 00000011 01010010 01001011 00000010 01100010 01011011 01111101 01011011 01101110 01011011 01011011 01011111 01110110 01101011 01100011 01110010 00001111 01001100
+```
+[XOR](https://www.dcode.fr/xor-cipher) Binary tersebut dengan kunci ```1957``` dan peroleh binary berikut :
+
+```
+01001101 01100101 01110010 01100100 01100101 01101011 01100001 00100000 01101011 01101001 01110100 01100001 00100000 01101000 01100001 01110010 01101001 00100000 01101001 01101110 01101001 00100000 01100010 01110101 01101011 01100001 01101110 00100000 01101011 01100101 01110010 01100001 01101110 01100001 00100000 01101110 01100001 01110011 01101001 01100010 00100000 01100100 01101001 01100001 01101110 01110100 01100001 01110010 01100001 00100000 01110011 01101001 01100110 01100001 01110010 00100000 01100100 01100001 01101110 00100000 01110011 01100001 01110100 01110101 00101100 00001010 01010100 01100101 01110100 01100001 01110000 01101001 00100000 01101011 01100101 01110010 01100001 01101110 01100001 00100000 01110000 01100101 01110010 01101010 01110101 01100001 01101110 01100111 01100001 01101110 00100000 01110000 01100101 01110010 01110111 01101001 01110010 01100001 00100000 01111001 01100001 01101110 01100111 00100000 01101010 01101001 01110111 01100001 00100000 01100100 01100001 01101110 00100000 01101000 01100001 01110100 01101001 01101110 01111001 01100001 00100000 01100010 01100101 01110010 01110011 01100001 01110100 01110101 00101110 00001010 01010011 01100101 01101100 01100001 01101101 01100001 01110100 00100000 01101101 01100101 01101110 01111001 01100001 01101101 01100010 01110101 01110100 00100000 01101000 01100001 01110010 01101001 00100000 01101011 01100101 01101101 01100101 01110010 01100100 01100101 01101011 01100001 01100001 01101110 00100000 01101011 01100101 00101101 00110110 00110110 00100001 00001010 00110011 00110001 00110000 00111000 01111011 01001101 01010100 00111000 00110011 00110010 01001010 01100110 00110100 01001101 01001101 01010101 01111000 01001011 01000011 01101010 00110101 00110011 01001100 01000011 01101010 01111001 01001011 01011001 01110111 01010001 01011010 01011001 01010110 01100100 01000111 01011000 01111001 01001110 01111010 01011010 01010001 01110101 01001011 01010001 01010011 01000111 01000010 00110111 01100010 01001101 01110101 01001000 01011010 01000110 01100111 01100110 01000010 01110101 00110110 00110100 01100011 01110010 00110111 01010101 01101010 01000100 01101110 01011001 01101010 01100010 01101010 01000001 01011010 01011010 01000111 00111000 01111101
+```
+
+Decode [Binary](https://cryptii.com/pipes/binary-decoder) yang diperoleh.
+
+```
+Merdeka kita hari ini bukan kerana nasib diantara sifar dan satu,
+Tetapi kerana perjuangan perwira yang jiwa dan hatinya bersatu.
+Selamat menyambut hari kemerdekaan ke-66!
+3108{MT832Jf4MMUxKCj53LCjyKYwQZYVdGXyNzZQuKQSGB7bMuHZFgfBu64cr7UjDnYjbjAZZG8}
+```
+
+```Bendera : 3108{MT832Jf4MMUxKCj53LCjyKYwQZYVdGXyNzZQuKQSGB7bMuHZFgfBu64cr7UjDnYjbjAZZG8}```
