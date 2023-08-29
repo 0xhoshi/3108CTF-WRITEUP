@@ -783,3 +783,61 @@ Dengan itu, kita boleh gunakan [Cheat Engine](https://www.cheatengine.org/downlo
 ```Bendera : 3108(B2148ED1A1EA228DD33363B6D1134063B59B62DB)```
 
 ## TUGASAN SAMPINGAN (STEGA)
+
+- ### Tugu Negara (Sederhana)
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Tugu%20Negara%20(Sederhana)/TUGUNEGARA.png?raw=true)
+
+Kita dibekalkan dengan satu gambar berupa tugu negara.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Tugu%20Negara%20(Sederhana)/TUGUNEGARA.png?raw=true)
+
+Lihat strings gambar yang diberi menggunakan alat seperti [AperiSolve](https://www.aperisolve.com/) dan peroleh bendera.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Tugu%20Negara%20(Sederhana)/TUGUNEGARA.png?raw=true)
+
+```Bendera : 3108{7ugu_n3g4r4}```
+
+- ### Hari Keramat (Mudah)
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Hari%20Keramat%20(Mudah)/HARIKERAMAT.png?raw=true)
+
+Kita dibekalkan dengan gambar berikut :
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Hari%20Keramat%20(Mudah)/HARIKERAMAT.png?raw=true)
+
+Naikkan keterangan gambar tersebut sehingga zahirnya tulisan di dalam gambar.
+
+Gunakan [Steganographic Decoder](https://futureboy.us/stegano/decinput.html) untuk decode gambar dengan ```angKaRahs1a``` sebagai kata laluan.
+
+Kita akan peroleh teks seperti berikut :
+
+```
+2F?82? >6C56<2 D632?J2< f <2=: <6C2?2 f
+f :2=29 2?8<2 DF4: 328: @C2?8 :D=2> 52? 3F>: ;F82 5:<2:E<2? 56?82? EF;FD =2A:D
+368:EF ;F82 =2?8:E]|6?FCFE C2;2 |@95 *FD@7 #2;2 ~E9>2?[:2 D6@=29 2?8<2 <6C2>2E J2?8 D:?@?:> 56?82?
+56?82? @C2?8 :D=2> >2<2 <2=2?82? A6>:>A:? A252 >2D2 :EF D6EF;F F?EF< >6=2F?8<2? >6C56<2
+D632?J2< f <2=:]b`_gLf|t#stzpb`_gdfN
+```
+Teks ini adalah dalam bentuk [ROT47](https://www.dcode.fr/rot-47-cipher), decode dan kita akan peroleh :
+
+```
+Laungan merdeka sebanyak 7 kali kerana 7 ialah angka suci bagi orang islam dan bumi juga dikaitkan dengan tujuh lapis
+begitu juga langit.Menurut raja Mohd Yusof Raja Othman,ia seolah angka keramat yang sinonim dengan dengan orang islam maka kalangan pemimpin pada masa itu setuju untuk melaungkan merdeka sebanyak 7 kali.3108{7MERDEKA310857}
+```
+
+```Bendera : 3108{7MERDEKA310857}```
+
+- ### Uncover (Sederhana)
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Uncover%20(Sederhana)/UNCOVER.png?raw=true)
+
+Kita dibekalkan dengan gambar seperti berikut :
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Hari%20Keramat%20(Mudah)/HARIKERAMAT.png?raw=true)
+
+Kotak-kotak warna-warni yang terdapat pada bucu kanan dan bucu kiri gambar merupakan [HexaHue Cipher](https://www.dcode.fr/hexahue-cipher).
+
+Decode dan peroleh bendera.
+
+```Bendera : 3108{H3X4HU3C0D3}```
