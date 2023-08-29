@@ -16,11 +16,11 @@
   - [Mesej Dalam Botol (Sederhana)](#Mesej-Dalam-Botol-Sederhana)
   - [Saya Di Mana (Mudah)](#Saya-Di-Mana-Mudah)
  
-- [**TUGASAN SAMPINGAN (WEB)**](#TUGASAN-SAMPINGAN-(WEB))
-  - [Lemah (Mudah)](#Lemah-(Mudah))
-  - [Wantujus (Mudah)](#Wantujus-(Mudah))
-  - [Wantusom (Sederhana)](#Wantusom-(Sederhana))
-  - [Pantun Pantul (Sederhana)](#Pantun-Pantul-(Sederhana)) 
+- [**TUGASAN SAMPINGAN (WEB)**](#TUGASAN-SAMPINGAN-WEB)
+  - [Lemah (Mudah)](#Lemah-Mudah)
+  - [Wantujus (Mudah)](#Wantujus-Mudah)
+  - [Wantusom (Sederhana)](#Wantusom-Sederhana)
+  - [Pantun Pantul (Sederhana)](#Pantun-Pantul-Sederhana) 
 
 <!-- [**TUGASAN SAMPINGAN (CRYPTOGRAPHY)**](#TUGASAN-SAMPINGAN-(CRYPTOGRAPHY))
   - [Nasihat (Mudah)](#Nasihat-(Mudah))
@@ -413,11 +413,11 @@ Kita dibekalkan dengan satu pautan ```lemah.bahterasiber.my```.
 
 Pergi ke pautan ini dan kita akan disapa dengan laman log masuk.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Lemah%20(Mudah)/Screenshot%202023-08-29%20210907.png?raw=true)
 
 Lihat source laman ini dan lihat kod untuk ```auth.js```.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Lemah%20(Mudah)/Screenshot%202023-08-29%20210950.png?raw=true)
 
 ```
 $(".c_submit").click(function(event) {
@@ -447,13 +447,15 @@ Run function ini dan peroleh bendera.
 
 pautan yang diberikan membawa kita ke laman berikut :
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantujus%20(Mudah)/Screenshot%202023-08-29%20211204.png?raw=true)
 
 Kalahkan Pakwan dengan memilih mana-mana antara tiga pilihan sehingga menang 10 kali.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantujus%20(Mudah)/Screenshot%202023-08-29%20211244.png?raw=true)
 
 Lihat biskut yang diberi menggunakan [Cookie Editor](https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm).
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantujus%20(Mudah)/Screenshot%202023-08-29%20211403.png?raw=true)
 
 Biskut yang diberi adalah dalam bentuk [BASE64](https://www.base64decode.org/), decode dan peroleh bendera.
 
@@ -465,9 +467,11 @@ Biskut yang diberi adalah dalam bentuk [BASE64](https://www.base64decode.org/), 
 
 laman ini saman seperti Wantujus, tetapi kali ini kemenangan kita mustahil untuk melebihi 9 kali.
 
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantusom%20(Sederhana)/Screenshot%202023-08-29%20213404.png?raw=true)
+
 Lihat source untuk lihat bagaimana laman ini berfungsi.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantusom%20(Sederhana)/Screenshot%202023-08-29%20214025.png?raw=true)
 
 tukar nilai 9 ke nombor yang lebih besar pada baris kod ini untuk menang dan peroleh biskut.
 
@@ -482,9 +486,9 @@ tukar nilai 9 ke nombor yang lebih besar pada baris kod ini untuk menang dan per
     computerChoice = getUnbeatableChoice(playerChoice);
   }
 ```
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantusom%20(Sederhana)/Screenshot%202023-08-29%20214744.png?raw=true)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantusom%20(Sederhana)/Screenshot%202023-08-29%20214756.png?raw=true)
 
 Biskut adalah dalam bentuk [BASE64](https://www.base64decode.org/), decode dan peroleh bendera.
 
@@ -496,17 +500,17 @@ Biskut adalah dalam bentuk [BASE64](https://www.base64decode.org/), decode dan p
 
 Laman ini meminta kita untuk melengkapkan pantun yang diberi.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Pantun%20Pantul%20(Sederhana)/Screenshot%202023-08-29%20220305.png?raw=true)
 
 Lihat source untuk mengetahui lebih lanjut tentang laman ini.
 
 fungsi ```bendera()``` ini akan memberikan kita bendera apabila digunakan.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Pantun%20Pantul%20(Sederhana)/Screenshot%202023-08-29%20220434.png?raw=true)
 
 Run function ```bendera()``` dan peroleh bendera.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Pantun%20Pantul%20(Sederhana)/Screenshot%202023-08-29%20220458.png?raw=true)
 
 ```Bendera : 3108{pantun1337kerat}```
 
