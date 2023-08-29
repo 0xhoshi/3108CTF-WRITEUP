@@ -41,12 +41,12 @@
   - [Hari Keramat (Mudah)](#Hari-Keramat-Mudah)
   - [Uncover (Sederhana)](#Uncover-Sederhana)
  
-<!-- [**TUGASAN SAMPINGAN (NETWORK)**](#TUGASAN-SAMPINGAN-(NETWORK))
-  - [Johan (Mudah)](#Johan-(Mudah))
-  - [Lagi-Lagi Johan (Mudah)](#Lagi-Lagi-Johan-(Mudah))
-  - [Jalan Jalan Di Kuala Lumpur (Mudah)](#Jalan-Jalan-Di-Kuala-Lumpur-(Mudah))
+- [**TUGASAN SAMPINGAN (NETWORK)**](#TUGASAN-SAMPINGAN-NETWORK)
+  - [Johan (Mudah)](#Johan-Mudah)
+  - [Lagi-Lagi Johan (Mudah)](#Lagi-Lagi-Johan-Mudah)
+  - [Jalan Jalan Di Kuala Lumpur (Mudah)](#Jalan-Jalan-Di-Kuala-Lumpur-Mudah)
  
-- [**TUGASAN SAMPINGAN (FORENSICS)**](#TUGASAN-SAMPINGAN-(FORENSICS))
+<!-- [**TUGASAN SAMPINGAN (FORENSICS)**](#TUGASAN-SAMPINGAN-(FORENSICS))
   - [Negeri-Negeri Di Malaysia (Mudah)](#Negeri-Negeri-Di-Malaysia-(Mudah))
   - [Hatta (Sederhana)](#Hatta-(Sederhana))
 
@@ -843,3 +843,74 @@ Kotak-kotak warna-warni yang terdapat pada bucu kanan dan bucu kiri gambar merup
 Decode dan peroleh bendera.
 
 ```Bendera : 3108{H3X4HU3C0D3}```
+
+## TUGASAN SAMPINGAN (NETWORK)
+
+- ### Johan (Mudah)
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Johan%20(Mudah)/JOHAN.png?raw=true)
+
+Fail yang diberikan boleh dianalisis menggunakan alat seperti [Wireshark](https://www.wireshark.org/).
+
+Letak tapisan kepada ```http``` dan buka fail ```newuser.php```.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Johan%20(Mudah)/JOHAN.png?raw=true)
+
+```
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "uuname" = "0110100001110100011101000111000001110011001110100010111100101111"
+    Form item: "upass" = "01110011011010010111010001100101011100110010111001100111011011110110111101100111011011000110010100101110011000110110111101101101"
+    Form item: "upass2" = "01110011011010010111010001100101011100110010111001100111011011110110111101100111011011000110010100101110011000110110111101101101"
+    Form item: "urname" = "001011110111011001101001011001010111011100101111"
+    Form item: "ucc" = "011010110111010100110100011011000011010000101101011011000111010101101101011100000111010101110010"
+    Form item: "uemail" = "0010111101101000011011110110110101100101"
+    Form item: "uphone" = "1234567890"
+    Form item: "uaddress" = "Kuala whut?"
+    Form item: "signup" = "signup"
+```
+
+Maklumat yang terdapat dalam fail ini adalah dalam bentuk [Binary](https://cryptii.com/pipes/binary-decoder), Sambungkan kesemuanya dan decode.
+
+Kita akan memperoleh satu pautan iaitu :
+
+```/sites.google.com/view/ku4l4-lumpur/home```
+
+Pergi ke pautan dan peroleh bendera.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Johan%20(Mudah)/JOHAN.png?raw=true)
+
+```Bendera : 3108{KU4L4_LUMPUR}```
+
+- ### Lagi-Lagi Johan (Mudah)
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Lagi-Lagi%20Johan%20(Mudah)/LAGILAGIJOHAN.png?raw=true)
+
+Gunakan [Wireshark](https://www.wireshark.org/) untuk menganalisis fail yang diberi.
+
+Selepas melihat paket satu persatu, fail ```userinfo.php``` mempunyai bendera di dalamnya.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Lagi-Lagi%20Johan%20(Mudah)/LAGILAGIJOHAN.png?raw=true)
+
+```Bendera : 3108{P4TR10T1C}```
+
+- ### Jalan Jalan Di Kuala Lumpur (Mudah)
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/JALANJALANDIKUALALUMPUR.png?raw=true)
+
+Gunakan [Wireshark](https://www.wireshark.org/) untuk export http dan kita akan peroleh fail-fail berikut :
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/JALANJALANDIKUALALUMPUR.png?raw=true)
+
+Bahagian pertama bendera terletak pada ```.----%20-----.pdf```.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/JALANJALANDIKUALALUMPUR.png?raw=true)
+
+Bahagian kedua bendera terletak pada ```flag.txt```
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/JALANJALANDIKUALALUMPUR.png?raw=true)
+
+Bahagian ketiga bendera terletak pada ```galeri.png```
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/JALANJALANDIKUALALUMPUR.png?raw=true)
+
+```Bendera : 3108{B4P4_M4L4YS1A}```
