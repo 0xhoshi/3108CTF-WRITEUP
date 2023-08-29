@@ -744,7 +744,7 @@ Decode teks di atas menggunakan [Spamimic](https://www.spammimic.com/decode.shtm
 
 Kita diberikan satu gambar seperti berikut :
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Pesan%20Tentang%20Bicara%20(Sederhana)/PESANTENTANGBICARA.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Pesan%20Tentang%20Bicara%20(Sederhana)/Batuta.png?raw=true)
 
 Terdapat [Morse Code](https://morsedecoder.com/) di dalam gambar, decode dan kita peroleh :
 
@@ -756,7 +756,7 @@ Teks ini adalah dalam bentuk [Vigenere Cipher](https://www.dcode.fr/vigenere-cip
 
 - ### 3108 CTF Town (Sederhana)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/3108%20CTF%20Town%20(Sederhana)/3108CTFTOWN.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/3108%20CTF%20Town%20(Sederhana)/photo_2023-08-29_23-52-06.jpg?raw=true)
 
 Kita diberikan satu fail GBA yang berupa permainan video.
 
@@ -772,13 +772,13 @@ Main permainan video ini menggunakan GBA Emulator dan peroleh bendera.
 
 Untuk tugasan ini, kita diberikan fail ```.exe``` seperti berikut :
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Nasi%20Lemak%201%20Juta%20(Mudah)/NASILEMAK1JUTA.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Nasi%20Lemak%201%20Juta%20(Mudah)/Screenshot%202023-08-30%20000345.png?raw=true)
 
 untuk mendapatkan bahan rahsia, kita memerlukan 1 juta nasi lemak, tidaklah berdaya jari ini untuk menekan sehingga memperoleh 1 juta nasi lemak.
 
 Dengan itu, kita boleh gunakan [Cheat Engine](https://www.cheatengine.org/downloads.php) untuk menukar nilai nasi lemak menjadi 1 juta lalu memperoleh bahan rahsia.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Nasi%20Lemak%201%20Juta%20(Mudah)/NASILEMAK1JUTA.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Nasi%20Lemak%201%20Juta%20(Mudah)/Screenshot%202023-08-30%20001056.png?raw=true)
 
 ```Bendera : 3108(B2148ED1A1EA228DD33363B6D1134063B59B62DB)```
 
