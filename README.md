@@ -211,21 +211,25 @@ Decode output tersebut dan kita akan peroleh pautan ke laman sesawang Tryhackme 
 
 Ini bermakna kita perlu bermain dengan box yang diberi, mari mulakan dengan port scanning.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20190257.png?raw=true)
 
 Keputusan menunjukkan 2 port terbuka, http/80 dan ssh/22.
 
 http/80 menandakan wujudnya laman sesawang, kita teruskan dengan menjalankan directory scanning.
 
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20191738.png?raw=true)
+
 Direktori ```/note.txt``` kelihatan menarik, mari kita lihat isi kandungannya.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20191846.png?raw=true)
 
 Berdasarkan maklumat di direktori tersebut, kita perlu ke domain ```itsloki.thm``` untuk mengetahui lebih lanjut.
 
 masukkan ip dan domain ke dalam /etc/hosts lalu kita dapat akses ke laman sesawang itsloki.thm.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192005.png?raw=true)
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192133.png?raw=true)
 
 Tidak banyak maklumat yang dapat diperoleh di laman sesawang ini.
 
@@ -237,27 +241,36 @@ Tetapi, maklumat yang kelihatan menarik adalah :
 
 3) Komen yang ditinggalkan di source code, iaitu ```rok14h@l33t```
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192206.png?raw=true)
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192252.png?raw=true)
 
 Kerana laman sesawang ini menggunakan ```textpattern cms```, pastinya terdapat direktori log masuk bagi pengarang.
 
-Jalankan directory scanning pada domain dan kita peroleh direktori ```/textpattern```
+Jalankan directory scanning pada domain ```itsloki.thm``` dan kita peroleh direktori ```/textpattern```
 
 ![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
 
 Memasukkan ```rok14h``` sebagai nama pengguna dan ```rok14h@l33t``` sebagai kata laluan akan memberi kita akses sebagai admin laman sesawang.
 
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+
 Untuk execute os command ke dalam machine mereka, muat naik reverse shell di bahagian "files".
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192618.png?raw=true)
 
 Dengan ini, kita telahpun mempunyai akses dan hak untuk execute command di dalam machine mereka.
 
 Untuk mencari bendera, saya gunakan command ```find / -name "*.txt"``` dan akhirnya kita peroleh bendera ketiga.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192729.png?raw=true)
 
-```Bendera : 3108{S3NT14SA_P3KA}```
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192816.png?raw=true)
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192816.png?raw=true)
+
+
+```Bendera : 3108{h4sil_bum!_d1r0b3k_dem1_kep3nt!ng4n_d1r1}```
 
 
 ## TUGASAN SAMPINGAN (OSINT)
@@ -836,9 +849,9 @@ begitu juga langit.Menurut raja Mohd Yusof Raja Othman,ia seolah angka keramat y
 
 Gambar yang diberi rosak dan tidak dapat dibuka.
 
-Buka fail tersebut menggunakan alat seperti [HexEdit.it](https://hexed.it/) atau [HxD](https://mh-nexus.de/en/hxd/) untuk analisis dan melihat apa yang menyebabkan ia rosak.
+Buka fail tersebut menggunakan alat seperti [HexEdit.it](https://hexed.it/) atau [HxD](https://mh-nexus.de/en/hxd/) untuk analisis dan perhati apa yang menyebabkan ia rosak.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Jalur%20Gemilang%20(Mudah)/JALURGEMILANG.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Jalur%20Gemilang%20(Mudah)/Screenshot%202023-08-30%20183029.png?raw=true)
 
 Seperti yang dapat kita lihat, fail ini tidak mempunyai header yang betul.
 
@@ -846,17 +859,17 @@ Fail ```.jpg``` biasanya akan mempunyai header dengan nilai ```FF D8 FF```.
 
 Mari kita cari fail yang mempunyai format yang sama dengan gambar diberi sebagai rujukan.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Jalur%20Gemilang%20(Mudah)/JALURGEMILANG.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Jalur%20Gemilang%20(Mudah)/Screenshot%202023-08-30%20183146.png?raw=true)
 
 Analisis [fail](https://www.yalehome.com/be/fr/content-fragments/news/2023/introducing-the-new-yale-home-app/yale-access-yale-home-16-9jpg) tersebut.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Jalur%20Gemilang%20(Mudah)/JALURGEMILANG.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Jalur%20Gemilang%20(Mudah)/Screenshot%202023-08-30%20183223.png?raw=true)
 
 Fail ini lengkap dengan header ```FF D8 FF E2```, letakkan nilai ini pada gambar yang diberi dalam tugasan. 
 
 Gambar tidak lagi rosak dan boleh dibuka. Gambar yang diperoleh adalah seperti berikut :
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Jalur%20Gemilang%20(Mudah)/JALURGEMILANG.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Jalur%20Gemilang%20(Mudah)/jalurgemilang.jpg?raw=true)
 
 ```Bendera : 3108{j4lur_g3mil4ng}```
 
@@ -953,11 +966,11 @@ Bahagian ketiga bendera terletak pada ```galeri.png```
 
 Kita dibekalkan dengan gambar seperti berikut :
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Negeri%20-%20Negeri%20di%20Malaysia%20(Mudah)/NEGERIDIMALAYSIA.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Negeri%20-%20Negeri%20di%20Malaysia%20(Mudah)/negeri-negeri_di_malaysia.jpg?raw=true)
 
 Siasat gambar yang diberi menggunakan alat seperti [AperiSolve](https://www.aperisolve.com/) dan lihat bahagian "strings".
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Negeri%20-%20Negeri%20di%20Malaysia%20(Mudah)/NEGERIDIMALAYSIA.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Negeri%20-%20Negeri%20di%20Malaysia%20(Mudah)/Screenshot%202023-08-30%20175544.png?raw=true)
 
 Terdapat teks berbentuk [BASE64](https://www.base64decode.org/) yang berpotensi menjadi bendera.
 
@@ -969,7 +982,7 @@ Decode dan peroleh bendera.
 
 - ### Hatta (Sederhana)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Hatta%20(Sederhana)/HATTA.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Hatta%20(Sederhana)/hatta.jpg?raw=true)
 
 Gambar yang diberikan adalah seperti berikut :
 
@@ -977,7 +990,7 @@ Gambar yang diberikan adalah seperti berikut :
 
 Siasat gambar yang diberi menggunakan alat seperti [AperiSolve](https://www.aperisolve.com/) dan lihat bahagian "strings".
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Hatta%20(Sederhana)/HATTA.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Hatta%20(Sederhana)/Screenshot%202023-08-30%20180422.png?raw=true)
 
 Terdapat untaian aneh yang terdiri daripada simbol  ```/``` dan ```.```.
 
@@ -1001,6 +1014,8 @@ Kita dibekalkan dengan satu program yang bertajuk ```perwira```.
 
 Lihat strings program dan peroleh bendera.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Hatta%20(Sederhana)/HATTA.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/REVERSE%20ENGINEERING/Sarawak%20(Mudah)/Screenshot%202023-08-30%20184754.png?raw=true)
 
-```Bendera : 3108{k3cil_cili_p4di}```
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/REVERSE%20ENGINEERING/Sarawak%20(Mudah)/Screenshot%202023-08-30%20184710.png?raw=true)
+
+```Bendera : 3108{r3nt4p}```
