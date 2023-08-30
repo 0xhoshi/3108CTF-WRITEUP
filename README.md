@@ -982,11 +982,11 @@ Decode dan peroleh bendera.
 
 - ### Hatta (Sederhana)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Hatta%20(Sederhana)/hatta.jpg?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Hatta%20(Sederhana)/HATTA.png?raw=true)
 
 Gambar yang diberikan adalah seperti berikut :
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Hatta%20(Sederhana)/HATTA.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Hatta%20(Sederhana)/hatta.jpg?raw=true)
 
 Siasat gambar yang diberi menggunakan alat seperti [AperiSolve](https://www.aperisolve.com/) dan lihat bahagian "strings".
 
