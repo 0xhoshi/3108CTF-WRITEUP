@@ -1,4 +1,4 @@
-![SARAWAK](https://github.com/0xhoshi/3108CTF-WRITEUP/assets/68049551/f66c4d0c-8917-4453-8781-bbe82d9de70f)# WRITEUP-3108CTF
+# WRITEUP-3108CTF
 ---------------------------------------------------------------------------
 ## __KATEGORI__
 
