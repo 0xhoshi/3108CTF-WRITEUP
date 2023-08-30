@@ -531,7 +531,7 @@ Run function ```bendera()``` dan peroleh bendera.
 
 - ### Nasihat (Mudah)
 
-![67](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/1957bit%20(Sederhana)/1957bit.png?raw=true)
+![67](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Nasihat%20(Mudah)/NASIHAT.png?raw=true)
 
 Tugasan ini memberikan kita dua fail untuk dimuat turun, salah satunya merupakan fail yang ditulis dalam bahasa pengaturcaraan python.
 
