@@ -1,4 +1,4 @@
-# WRITEUP-3108CTF
+![SARAWAK](https://github.com/0xhoshi/3108CTF-WRITEUP/assets/68049551/f66c4d0c-8917-4453-8781-bbe82d9de70f)# WRITEUP-3108CTF
 ---------------------------------------------------------------------------
 ## __KATEGORI__
 
@@ -46,14 +46,14 @@
   - [Lagi-Lagi Johan (Mudah)](#Lagi-Lagi-Johan-Mudah)
   - [Jalan Jalan Di Kuala Lumpur (Mudah)](#Jalan-Jalan-Di-Kuala-Lumpur-Mudah)
  
-<!-- [**TUGASAN SAMPINGAN (FORENSICS)**](#TUGASAN-SAMPINGAN-(FORENSICS))
-  - [Negeri-Negeri Di Malaysia (Mudah)](#Negeri-Negeri-Di-Malaysia-(Mudah))
-  - [Hatta (Sederhana)](#Hatta-(Sederhana))
+- [**TUGASAN SAMPINGAN (FORENSICS)**](#TUGASAN-SAMPINGAN-FORENSICS)
+  - [Negeri-Negeri Di Malaysia (Mudah)](#Negeri-Negeri-Di-Malaysia-Mudah)
+  - [Hatta (Sederhana)](#Hatta-Sederhana)
 
-- [**TUGASAN SAMPINGAN (REVERSE ENGINEERING)**](#TUGASAN-SAMPINGAN-(REVERSE-ENGINEERING))
-  - [Sarawak](#sarawak)
+- [**TUGASAN SAMPINGAN (REVERSE ENGINEERING)**](#TUGASAN-SAMPINGAN-REVERSE-ENGINEERING)
+  - [Sarawak (Mudah)](#sarawak-mudah)
  
-- [**TUGASAN KHAS : KENALI PENAJA**](#TUGASAN-KHAS-:-KENALI-PENAJA)
+<!-- [**TUGASAN KHAS : KENALI PENAJA**](#TUGASAN-KHAS-:-KENALI-PENAJA)
   - [YAYASAN DIGITAL MALAYSIA](#YAYASAN-DIGITAL-MALAYSIA)
   - [RE:HACK](#RE:HACK)
   - [TENANG KOMUNITI](#TENANG-KOMUNITI)
@@ -830,6 +830,36 @@ begitu juga langit.Menurut raja Mohd Yusof Raja Othman,ia seolah angka keramat y
 
 ```Bendera : 3108{7MERDEKA310857}```
 
+- ### Jalur Gemilang (Mudah)
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Jalur%20Gemilang%20(Mudah)/JALURGEMILANG.png?raw=true)
+
+Gambar yang diberi rosak dan tidak dapat dibuka.
+
+Buka fail tersebut menggunakan alat seperti [HexEdit.it](https://hexed.it/) atau [HxD](https://mh-nexus.de/en/hxd/) untuk analisis dan melihat apa yang menyebabkan ia rosak.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Jalur%20Gemilang%20(Mudah)/JALURGEMILANG.png?raw=true)
+
+Seperti yang dapat kita lihat, fail ini tidak mempunyai header yang betul.
+
+Fail ```.jpg``` biasanya akan mempunyai header dengan nilai ```FF D8 FF```.
+
+Mari kita cari fail yang mempunyai format yang sama dengan gambar diberi sebagai rujukan.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Jalur%20Gemilang%20(Mudah)/JALURGEMILANG.png?raw=true)
+
+Analisis [fail](https://www.yalehome.com/be/fr/content-fragments/news/2023/introducing-the-new-yale-home-app/yale-access-yale-home-16-9jpg) tersebut.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Jalur%20Gemilang%20(Mudah)/JALURGEMILANG.png?raw=true)
+
+Fail ini lengkap dengan header ```FF D8 FF E2```, letakkan nilai ini pada gambar yang diberi dalam tugasan. 
+
+Gambar tidak lagi rosak dan boleh dibuka. Gambar yang diperoleh adalah seperti berikut :
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Jalur%20Gemilang%20(Mudah)/JALURGEMILANG.png?raw=true)
+
+```Bendera : 3108{j4lur_g3mil4ng}```
+
 - ### Uncover (Sederhana)
 
 ![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Uncover%20(Sederhana)/UNCOVER.png?raw=true)
@@ -914,3 +944,63 @@ Bahagian ketiga bendera terletak pada ```galeri.png```
 ![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/galeri.png?raw=true)
 
 ```Bendera : 3108{B4P4_M4L4YS1A}```
+
+## TUGASAN SAMPINGAN (FORENSICS)
+
+- ### Negeri-Negeri Di Malaysia (Mudah)
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Negeri%20-%20Negeri%20di%20Malaysia%20(Mudah)/NEGERIDIMALAYSIA.png?raw=true)
+
+Kita dibekalkan dengan gambar seperti berikut :
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Negeri%20-%20Negeri%20di%20Malaysia%20(Mudah)/NEGERIDIMALAYSIA.png?raw=true)
+
+Siasat gambar yang diberi menggunakan alat seperti [AperiSolve](https://www.aperisolve.com/) dan lihat bahagian "strings".
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Negeri%20-%20Negeri%20di%20Malaysia%20(Mudah)/NEGERIDIMALAYSIA.png?raw=true)
+
+Terdapat teks berbentuk [BASE64](https://www.base64decode.org/) yang berpotensi menjadi bendera.
+
+```MzEwOHsxRDNOVDFUMV9NNEw0WVMxNH0=```
+
+Decode dan peroleh bendera.
+
+```Bendera : 3108{1D3NT1T1_M4L4YS14}```
+
+- ### Hatta (Sederhana)
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Hatta%20(Sederhana)/HATTA.png?raw=true)
+
+Gambar yang diberikan adalah seperti berikut :
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Hatta%20(Sederhana)/HATTA.png?raw=true)
+
+Siasat gambar yang diberi menggunakan alat seperti [AperiSolve](https://www.aperisolve.com/) dan lihat bahagian "strings".
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Hatta%20(Sederhana)/HATTA.png?raw=true)
+
+Terdapat untaian aneh yang terdiri daripada simbol  ```/``` dan ```.```.
+
+```..//..//..//.../..//......///....////.//.//././/..//..//.//...//.//./.././/.//..././////.//...//.//./.././/.//...//./../././////.///......//./...//../...//./.././////./```
+
+Gantikan simbol ```/``` kepada ```1``` dan simbol ```.``` kepada ```0```. Peroleh Binary seperti berikut :
+
+```001100110011000100110000001110000111101101101011001100110110001101101001011011000101111101100011011010010110110001101001010111110111000000110100011001000110100101111101```
+
+[Decode Binary](https://cryptii.com/pipes/binary-decoder) dan peroleh bendera.
+
+```Bendera : 3108{k3cil_cili_p4di}```
+
+## TUGASAN SAMPINGAN (REVERSE ENGINEERING)
+
+- ### Sarawak (Mudah)
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/REVERSE%20ENGINEERING/Sarawak%20(Mudah)/SARAWAK.png?raw=true)
+
+Kita dibekalkan dengan satu program yang bertajuk ```perwira```.
+
+Lihat strings program dan peroleh bendera.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Hatta%20(Sederhana)/HATTA.png?raw=true)
+
+```Bendera : 3108{k3cil_cili_p4di}```
