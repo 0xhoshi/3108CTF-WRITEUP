@@ -781,7 +781,7 @@ Main permainan video ini menggunakan GBA Emulator dan peroleh bendera.
 
 - ### Nasi Lemak 1 Juta (Mudah)
 
-!81](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Nasi%20Lemak%201%20Juta%20(Mudah)/NASILEMAK1JUTA.png?raw=true)
+![81](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Nasi%20Lemak%201%20Juta%20(Mudah)/NASILEMAK1JUTA.png?raw=true)
 
 Untuk tugasan ini, kita diberikan fail ```.exe``` seperti berikut :
 
