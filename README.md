@@ -249,11 +249,11 @@ Kerana laman sesawang ini menggunakan ```textpattern cms```, pastinya terdapat d
 
 Jalankan directory scanning pada domain ```itsloki.thm``` dan kita peroleh direktori ```/textpattern```
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20194243.png?raw=true)
 
 Memasukkan ```rok14h``` sebagai nama pengguna dan ```rok14h@l33t``` sebagai kata laluan akan memberi kita akses sebagai admin laman sesawang.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20193730.png?raw=true)
 
 Untuk execute os command ke dalam machine mereka, muat naik reverse shell di bahagian "files".
 
@@ -267,7 +267,7 @@ Untuk mencari bendera, saya gunakan command ```find / -name "*.txt"``` dan akhir
 
 ![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192816.png?raw=true)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192816.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20193613.png?raw=true)
 
 
 ```Bendera : 3108{h4sil_bum!_d1r0b3k_dem1_kep3nt!ng4n_d1r1}```
