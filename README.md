@@ -65,11 +65,11 @@
 ## TUGASAN UTAMA : WARKAH UNTUK PERWIRA
 - ### Tugasan I : Seruan Perwira
 
-![tugasan1](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20I/1.png?raw=true)
+![1](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20I/1.png?raw=true)
 
 Untuk tugasan I, kita dibekalkan dengan satu [pautan](https://www.youtube.com/watch?v=DFBNEsKJW6I) Youtube yang bertajuk ```SERANGAN SIBER ITSLOKI```.
 
-![itsloki](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20I/Screenshot%202023-08-28%20185632.png?raw=true)
+![2](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20I/Screenshot%202023-08-28%20185632.png?raw=true)
 
 Seperti yang dapat kita lihat di deskripsi video, terdapat pautan lain yang membawa kita ke laman sesawang Mediafire.
 
@@ -77,11 +77,11 @@ Seperti yang dapat kita lihat di deskripsi video, terdapat pautan lain yang memb
 
 Selepas memuat turun dan mengekstrak fail yang diberikan, kita disapa dengan fail EML yang bertajuk aneh, mungkin morse code?
 
-![eml](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20I/Screenshot%202023-08-28%20190505.png?raw=true)
+![3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20I/Screenshot%202023-08-28%20190505.png?raw=true)
 
 Fail EML adalah fail bagi emel yang telah disimpan, maka kita boleh mengakses fail tersebut menggunakan aplikasi emel.
 
-![emel](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20I/Screenshot%202023-08-28%20191243.png?raw=true)
+![4](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20I/Screenshot%202023-08-28%20191243.png?raw=true)
 
 Isi email tersebut adalah kata-kata dalam bentuk morse code dan satu fail ```attachments.zip```.
 Menggunakan morse code decoder, Morse code yang tertera bermaksud :
@@ -94,7 +94,7 @@ Sebagai perwira yang mempunyai semangat patriotik yang tinggi, tekaan saya bagi 
 
 
 
-![flag1](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20I/Screenshot%202023-08-28%20193534.png?raw=true)
+![5](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20I/Screenshot%202023-08-28%20193534.png?raw=true)
 
 ```kata laluan : 3108```
 
@@ -103,13 +103,13 @@ Fail yang diekstrak mengandungi satu text file dan satu gambar.
 ```Bendera : 3108{1E2A3C68CC5C0207886EDE403EEF230DC7C0FBD0}```
 
 - ### Tugasan II : Tali Barut
-![tugasan2](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20II/2.png?raw=true)
+![6](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20II/2.png?raw=true)
 
 Tugasan II menyatakan ahli ITSLOKI mempunyai akaun media sosial mereka tersendiri.
 
 Disebabkan Tugasan II merupakan kesinambungan Tugasan I, mungkin kita boleh mencari petunjuk dari fail yang telah diekstrak sebelum ini.
 
-![godam](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20II/image.jpeg?raw=true)
+![7](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20II/image.jpeg?raw=true)
 
 Terdapat beberapa nama ahli ITSLOKI yang tertera dalam gambar yang diperoleh.
 
@@ -117,7 +117,7 @@ Selepas percubaan OSINT kesemua nama di beberapa media sosial, ```p3tualang``` d
 
 Terdapat pautan discord pada satu kiriman di akaun TikTok p3tualang.
 
-![TIKTOK](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20II/Screenshot%202023-08-28%20202708.png?raw=true)
+![8](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20II/Screenshot%202023-08-28%20202708.png?raw=true)
 
 ```https://discord.gg/4SudntVNer```
 
@@ -140,7 +140,7 @@ Teks ini adalah dalam bentuk [Baconian Cipher](https://www.dcode.fr/bacon-cipher
 ```Bendera : 3108{S3NT14SA_P3KA}```
 
 - ### Tugasan III : Pangkalan Gelap
-  ![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/3.png?raw=true)
+  ![9](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/3.png?raw=true)
 
 Bagi Tugasan III, maklumat yang diberikan adalah ITSLOKI mempunyai laman web dan objektif kita adalah untuk menyelinap masuk ke dalam sistem mereka.
 
@@ -211,25 +211,25 @@ Decode output tersebut dan kita akan peroleh pautan ke laman sesawang Tryhackme 
 
 Ini bermakna kita perlu bermain dengan box yang diberi, mari mulakan dengan port scanning.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20190257.png?raw=true)
+![10](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20190257.png?raw=true)
 
 Keputusan menunjukkan 2 port terbuka, http/80 dan ssh/22.
 
 http/80 menandakan wujudnya laman sesawang, kita teruskan dengan menjalankan directory scanning.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20191738.png?raw=true)
+![11](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20191738.png?raw=true)
 
 Direktori ```/note.txt``` kelihatan menarik, mari kita lihat isi kandungannya.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20191846.png?raw=true)
+![12](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20191846.png?raw=true)
 
 Berdasarkan maklumat di direktori tersebut, kita perlu ke domain ```itsloki.thm``` untuk mengetahui lebih lanjut.
 
 masukkan ip dan domain ke dalam /etc/hosts lalu kita dapat akses ke laman sesawang itsloki.thm.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192005.png?raw=true)
+![13](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192005.png?raw=true)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192133.png?raw=true)
+![14](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192133.png?raw=true)
 
 Tidak banyak maklumat yang dapat diperoleh di laman sesawang ini.
 
@@ -241,33 +241,33 @@ Tetapi, maklumat yang kelihatan menarik adalah :
 
 3) Komen yang ditinggalkan di source code, iaitu ```rok14h@l33t```
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192206.png?raw=true)
+![15](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192206.png?raw=true)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192252.png?raw=true)
+![16](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192252.png?raw=true)
 
 Kerana laman sesawang ini menggunakan ```textpattern cms```, pastinya terdapat direktori log masuk bagi pengarang.
 
 Jalankan directory scanning pada domain ```itsloki.thm``` dan kita peroleh direktori ```/textpattern```
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20194243.png?raw=true)
+![17](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20194243.png?raw=true)
 
 Memasukkan ```rok14h``` sebagai nama pengguna dan ```rok14h@l33t``` sebagai kata laluan akan memberi kita akses sebagai admin laman sesawang.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20193730.png?raw=true)
+![18](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20193730.png?raw=true)
 
 Untuk execute os command ke dalam machine mereka, muat naik reverse shell di bahagian "files".
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192618.png?raw=true)
+![19](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192618.png?raw=true)
 
 Dengan ini, kita telahpun mempunyai akses dan hak untuk execute command di dalam machine mereka.
 
 Untuk mencari bendera, saya gunakan command ```find / -name "*.txt"``` dan akhirnya kita peroleh bendera ketiga.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192729.png?raw=true)
+![20](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192729.png?raw=true)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192816.png?raw=true)
+![21](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20192816.png?raw=true)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20193613.png?raw=true)
+![22](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/TUGASAN%20UTAMA/Tugasan%20III/Screenshot%202023-08-30%20193613.png?raw=true)
 
 
 ```Bendera : 3108{h4sil_bum!_d1r0b3k_dem1_kep3nt!ng4n_d1r1}```
@@ -276,31 +276,31 @@ Untuk mencari bendera, saya gunakan command ```find / -name "*.txt"``` dan akhir
 ## TUGASAN SAMPINGAN (OSINT)
 - ### Pertemuan Kapista : Babak I (Mudah)
 
-![kapista](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20I/PERTEMUANKAPISTA1.png?raw=true)
+![23](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20I/PERTEMUANKAPISTA1.png?raw=true)
 
 Kita dibekalkan dengan tapak mula yang berupa pautan Youtube bertajuk ```Misi 3108```.
 
-![kapistayoutube](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20I/Screenshot%202023-08-28%20230501.png?raw=true)
+![24](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20I/Screenshot%202023-08-28%20230501.png?raw=true)
 
 Isi kandungan video tersebut mengarahkan kita untuk menyiasat ```madah4arjuna``` di sosial media X atau lebih dikenali sebagai Twitter.
 
 Cari ```madah4arjuna``` di X dan kita akan peroleh bendera di salah satu kirimannya.
 
-![kapistaflag1](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20I/photo_2023-08-28_23-07-03.jpg?raw=true)
+![25](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20I/photo_2023-08-28_23-07-03.jpg?raw=true)
 
 ```Bendera : 3108{angka_keramat}```
 
 - ### Pertemuan Kapista : Babak II (Mudah)
 
-![kapista2](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20II/PERTEMUANKAPISTA2.png?raw=true)
+![26](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20II/PERTEMUANKAPISTA2.png?raw=true)
 
 Tugasan ini merupakan sambungan daripada Pertemuan Kapista : Babak I, intel yang dimaksudkan pasti berada di akaun media sosial yang sama.
 
 Dua kiriman daripada ```madah4arjuna``` kelihatan mencurigakan kerana mempunyai turutan nombor yang tidak dapat difahami.
 
-![kapista21](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20II/photo_2023-08-28_23-21-02.jpg?raw=true)
+![27](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20II/photo_2023-08-28_23-21-02.jpg?raw=true)
 
-![kapista22](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20II/photo_2023-08-28_23-21-11.jpg?raw=true)
+![28](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20II/photo_2023-08-28_23-21-11.jpg?raw=true)
 
 Turutan nombor tersebut adalah [Multi-Tap Phone Cipher](https://www.dcode.fr/multitap-abc-cipher), gabungkan dua turutan nombor itu dan decode.
 
@@ -308,7 +308,7 @@ Hasil decode ialah ```SABAH TANGO HASSAN TELEGRAM LANANG KUSRANI```
 
 Pergi ke Telegram Lanang Kusrani dan kita akan peroleh bendera.
 
-![kapistaflag2](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20II/photo_2023-08-28_23-29-26.jpg?raw=true)
+![29](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20II/photo_2023-08-28_23-29-26.jpg?raw=true)
 
 ```Bendera : 3108{Hassan_Tapa}```
 
@@ -316,17 +316,17 @@ Kacak juga Hassan Tapa, Tidak seperti kelakuannya yang jelik.
 
 - ### Pertemuan Kapista : Finale (Mudah)
 
-![kapista3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20Finale/PERTEMUANKAPISTA3.png?raw=true)
+![30](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20Finale/PERTEMUANKAPISTA3.png?raw=true)
 
 Tibalah kita ke babak terakhir untuk Pertemuan Kapista.
 
 Pergi ke Instagram Hassan Tapa seperti yang tertera di dalam Telegram.
 
-![kapistains](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20Finale/Screenshot%202023-08-28%20233833.png?raw=true)
+![31](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20Finale/Screenshot%202023-08-28%20233833.png?raw=true)
 
 Satu kiriman daripada Hassan Tapa mempunyai teks berbentuk [BASE64](https://www.base64decode.org/) di dalam gambar.
 
-![kapistains1](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20Finale/Screenshot%202023-08-28%20234012.png?raw=true)
+![32](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20Finale/Screenshot%202023-08-28%20234012.png?raw=true)
 
 Decode teks tersebut dan kita peroleh satu pautan :
 
@@ -336,65 +336,65 @@ Malang sekali, kita memerlukan kata laluan untuk mendapat akses.
 
 Cari petunjuk untuk kata laluan di akaun Instagram, kapsyen kiriman berikut kelihatan janggal :
 
-![kapistains2](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20Finale/photo_2023-08-28_23-42-07.jpg?raw=true)
+![33](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20Finale/photo_2023-08-28_23-42-07.jpg?raw=true)
 
 Ubah tarikh tersebut kepada ```31082023``` dan gunakan sebagai kata laluan.
 
-![kapistapb](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20Finale/Screenshot%202023-08-28%20235438.png?raw=true)
+![34](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Pertemuan%20Kapista%20Finale/Screenshot%202023-08-28%20235438.png?raw=true)
 
 ```Bendera : 3108{Pulau_Mabul}```
 
 - ### Hero Melayu (Mudah)
 
-![heromelayu](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Hero%20Melayu%20(Mudah)/HEROMELAYU.png?raw=true)
+![35](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Hero%20Melayu%20(Mudah)/HEROMELAYU.png?raw=true)
 
 Telah disertakan dua hashtag di dalam deskripsi tugasan ini : ```#3108ctf #pempengaruhsiber```
 
 Cari dua hashtag ini di media sosial Tiktok lalu akan muncul akaun tersebut :
 
-![heromelayu1](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Hero%20Melayu%20(Mudah)/Screenshot%202023-08-29%20001252.png?raw=true)
+![36](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Hero%20Melayu%20(Mudah)/Screenshot%202023-08-29%20001252.png?raw=true)
 
 Lihat satu persatu kiriman di akaun tersebut dan kita akan peroleh bendera.
 
-![heromelayu1](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Hero%20Melayu%20(Mudah)/Screenshot%202023-08-29%20001406.png?raw=true)
+![37](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Hero%20Melayu%20(Mudah)/Screenshot%202023-08-29%20001406.png?raw=true)
 
 ```Bendera : 3108{m3d14_m4ss4l4h}```
 
 - ### Kisah Lama (Mudah)
 
-![kisahlama](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Kisah%20Lama%20(Mudah)/KISAHLAMA.png?raw=true)
+![38](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Kisah%20Lama%20(Mudah)/KISAHLAMA.png?raw=true)
 
 Kita dibekalkan dengan satu pautan yang telah dibuang kandungannya :
 
-![kisahlama](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Kisah%20Lama%20(Mudah)/Screenshot%202023-08-29%20002152.png?raw=true)
+![39](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Kisah%20Lama%20(Mudah)/Screenshot%202023-08-29%20002152.png?raw=true)
 
 Gunakan [Wayback Machine](https://archive.org/web/) untuk mengakses kandungan yang telah dibuang.
 
-![kisahlama](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Kisah%20Lama%20(Mudah)/Screenshot%202023-08-29%20002247.png?raw=true)
+![40](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Kisah%20Lama%20(Mudah)/Screenshot%202023-08-29%20002247.png?raw=true)
 
-![kisahlama](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Kisah%20Lama%20(Mudah)/Screenshot%202023-08-29%20002337.png?raw=true)
+![41](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Kisah%20Lama%20(Mudah)/Screenshot%202023-08-29%20002337.png?raw=true)
 
 ```Bendera : 3108{r3d4_d4r1_kis4h_l4m4}```
 
 - ### Mesej Dalam Botol (Sederhana)
 
-![mesej](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Mesej%20Dalam%20Botol%20(Sederhana)/MESEJDALAMBOTOL.png?raw=true)
+![42](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Mesej%20Dalam%20Botol%20(Sederhana)/MESEJDALAMBOTOL.png?raw=true)
 
 Kita diberi satu gambar dan satu fail rar yang memerlukan kata laluan.
 
 Cari gambar tersebut di [Google Images](https://www.google.com/imghp?hl=en) untuk memperoleh maklumat tentang bahtera tersebut.
 
-![mesej](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Mesej%20Dalam%20Botol%20(Sederhana)/Screenshot%202023-08-29%20003521.png?raw=true)
+![43](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Mesej%20Dalam%20Botol%20(Sederhana)/Screenshot%202023-08-29%20003521.png?raw=true)
 
 Bahtera Pertiwi kelihatan sepadan dengan gambar yang dibekalkan.
 
-![mesej](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Mesej%20Dalam%20Botol%20(Sederhana)/Screenshot%202023-08-29%20003633.png?raw=true)
+![44](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Mesej%20Dalam%20Botol%20(Sederhana)/Screenshot%202023-08-29%20003633.png?raw=true)
 
 Tahun pembinaannya ialah 2014.
 
 Masukkan ```BAHTERAPERTIWI_2014``` sebagai kata laluan bagi "botol" dan kita akan peroleh gambar berikut :
 
-![mesej](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Mesej%20Dalam%20Botol%20(Sederhana)/Screenshot%202023-08-29%20003954.png?raw=true)
+![45](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Mesej%20Dalam%20Botol%20(Sederhana)/Screenshot%202023-08-29%20003954.png?raw=true)
 
 tulisan yang terdapat di sisi gambar tersebut adalah dalam bentuk [ROT47](https://www.dcode.fr/rot-47-cipher), decode dan peroleh bendera.
 
@@ -402,17 +402,17 @@ tulisan yang terdapat di sisi gambar tersebut adalah dalam bentuk [ROT47](https:
 
 - ### Saya Di Mana (Mudah)
 
-![saya di mana](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Saya%20di%20Mana%20(Mudah)/SAYADIMANA.png?raw=true)
+![46](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Saya%20di%20Mana%20(Mudah)/SAYADIMANA.png?raw=true)
 
-![saya di mana](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Saya%20di%20Mana%20(Mudah)/saya_dimana.jpg?raw=true)
+![47](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Saya%20di%20Mana%20(Mudah)/saya_dimana.jpg?raw=true)
 
 Menggunakan maklumat yang diberikan di deskripsi dan di dalam gambar, lokasi yang dimaksudkan ialah ```Dataran Pahlawan Melaka```.
 
 Cari ```Dataran Pahlawan Melaka``` di Google Maps dan lihat "Reviews" terkini.
 
-![saya di mana](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Saya%20di%20Mana%20(Mudah)/Screenshot%202023-08-29%20005351.png?raw=true)
+![48](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Saya%20di%20Mana%20(Mudah)/Screenshot%202023-08-29%20005351.png?raw=true)
 
-![saya di mana](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Saya%20di%20Mana%20(Mudah)/Screenshot%202023-08-29%20005428.png?raw=true)
+![49](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/OSINT/Saya%20di%20Mana%20(Mudah)/Screenshot%202023-08-29%20005428.png?raw=true)
 
 ```Bendera : 3108{d4tar4n_p4hl4w4n}```
 
@@ -420,17 +420,17 @@ Cari ```Dataran Pahlawan Melaka``` di Google Maps dan lihat "Reviews" terkini.
 
 - ### Lemah (Mudah)
 
-![lemah](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Lemah%20(Mudah)/LEMAH.png?raw=true)
+![50](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Lemah%20(Mudah)/LEMAH.png?raw=true)
 
 Kita dibekalkan dengan satu pautan ```lemah.bahterasiber.my```.
 
 Pergi ke pautan ini dan kita akan disapa dengan laman log masuk.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Lemah%20(Mudah)/Screenshot%202023-08-29%20210907.png?raw=true)
+!51](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Lemah%20(Mudah)/Screenshot%202023-08-29%20210907.png?raw=true)
 
 Lihat source laman ini dan lihat kod untuk ```auth.js```.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Lemah%20(Mudah)/Screenshot%202023-08-29%20210950.png?raw=true)
+![52](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Lemah%20(Mudah)/Screenshot%202023-08-29%20210950.png?raw=true)
 
 ```
 $(".c_submit").click(function(event) {
@@ -450,25 +450,25 @@ Kod ini hanya menerima input dengan nama pengguna ```Jati``` dan kata laluan ```
 
 Run function ini dan peroleh bendera.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Lemah%20(Mudah)/Screenshot%202023-08-29%20211021.png?raw=true)
+![53](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Lemah%20(Mudah)/Screenshot%202023-08-29%20211021.png?raw=true)
 
 ```Bendera : 3108{p4ssw0rd_l3m4h!}```
 
 - ### Wantujus (Mudah)
 
-![lemah](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Lemah%20(Mudah)/LEMAH.png?raw=true)
+![54](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Lemah%20(Mudah)/LEMAH.png?raw=true)
 
 pautan yang diberikan membawa kita ke laman berikut :
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantujus%20(Mudah)/Screenshot%202023-08-29%20211204.png?raw=true)
+![55](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantujus%20(Mudah)/Screenshot%202023-08-29%20211204.png?raw=true)
 
 Kalahkan Pakwan dengan memilih mana-mana antara tiga pilihan sehingga menang 10 kali.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantujus%20(Mudah)/Screenshot%202023-08-29%20211244.png?raw=true)
+![56](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantujus%20(Mudah)/Screenshot%202023-08-29%20211244.png?raw=true)
 
 Lihat biskut yang diberi menggunakan [Cookie Editor](https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm).
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantujus%20(Mudah)/Screenshot%202023-08-29%20211403.png?raw=true)
+![57](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantujus%20(Mudah)/Screenshot%202023-08-29%20211403.png?raw=true)
 
 Biskut yang diberi adalah dalam bentuk [BASE64](https://www.base64decode.org/), decode dan peroleh bendera.
 
@@ -476,15 +476,15 @@ Biskut yang diberi adalah dalam bentuk [BASE64](https://www.base64decode.org/), 
 
 - ### Wantusom (Sederhana)
 
-![lemah](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantusom%20(Sederhana)/WANTUSOM.png?raw=true)
+![58](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantusom%20(Sederhana)/WANTUSOM.png?raw=true)
 
 laman ini saman seperti Wantujus, tetapi kali ini kemenangan kita mustahil untuk melebihi 9 kali.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantusom%20(Sederhana)/Screenshot%202023-08-29%20213404.png?raw=true)
+![59](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantusom%20(Sederhana)/Screenshot%202023-08-29%20213404.png?raw=true)
 
 Lihat source untuk lihat bagaimana laman ini berfungsi.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantusom%20(Sederhana)/Screenshot%202023-08-29%20214025.png?raw=true)
+![60](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantusom%20(Sederhana)/Screenshot%202023-08-29%20214025.png?raw=true)
 
 tukar nilai 9 ke nombor yang lebih besar pada baris kod ini untuk menang dan peroleh biskut.
 
@@ -499,9 +499,9 @@ tukar nilai 9 ke nombor yang lebih besar pada baris kod ini untuk menang dan per
     computerChoice = getUnbeatableChoice(playerChoice);
   }
 ```
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantusom%20(Sederhana)/Screenshot%202023-08-29%20214744.png?raw=true)
+![61](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantusom%20(Sederhana)/Screenshot%202023-08-29%20214744.png?raw=true)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantusom%20(Sederhana)/Screenshot%202023-08-29%20214756.png?raw=true)
+![62](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Wantusom%20(Sederhana)/Screenshot%202023-08-29%20214756.png?raw=true)
 
 Biskut adalah dalam bentuk [BASE64](https://www.base64decode.org/), decode dan peroleh bendera.
 
@@ -509,21 +509,21 @@ Biskut adalah dalam bentuk [BASE64](https://www.base64decode.org/), decode dan p
 
 - ### Pantun Pantul (Sederhana)
 
-![lpantun](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Pantun%20Pantul%20(Sederhana)/PANTUNPANTUL.png?raw=true)
+![63](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Pantun%20Pantul%20(Sederhana)/PANTUNPANTUL.png?raw=true)
 
 Laman ini meminta kita untuk melengkapkan pantun yang diberi.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Pantun%20Pantul%20(Sederhana)/Screenshot%202023-08-29%20220305.png?raw=true)
+![64](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Pantun%20Pantul%20(Sederhana)/Screenshot%202023-08-29%20220305.png?raw=true)
 
 Lihat source untuk mengetahui lebih lanjut tentang laman ini.
 
 fungsi ```bendera()``` ini akan memberikan kita bendera apabila digunakan.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Pantun%20Pantul%20(Sederhana)/Screenshot%202023-08-29%20220434.png?raw=true)
+![65](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Pantun%20Pantul%20(Sederhana)/Screenshot%202023-08-29%20220434.png?raw=true)
 
 Run function ```bendera()``` dan peroleh bendera.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Pantun%20Pantul%20(Sederhana)/Screenshot%202023-08-29%20220458.png?raw=true)
+![66](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Pantun%20Pantul%20(Sederhana)/Screenshot%202023-08-29%20220458.png?raw=true)
 
 ```Bendera : 3108{pantun1337kerat}```
 
@@ -531,23 +531,23 @@ Run function ```bendera()``` dan peroleh bendera.
 
 - ### Nasihat (Mudah)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/1957bit%20(Sederhana)/1957bit.png?raw=true)
+![67](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/1957bit%20(Sederhana)/1957bit.png?raw=true)
 
 Tugasan ini memberikan kita dua fail untuk dimuat turun, salah satunya merupakan fail yang ditulis dalam bahasa pengaturcaraan python.
 
 Muat turun dua fail ini dalam satu direktori dan lihat kod python yang diberi.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Nasihat%20(Mudah)/Screenshot%202023-08-29%20223123.png?raw=true)
+![68](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Nasihat%20(Mudah)/Screenshot%202023-08-29%20223123.png?raw=true)
 
 Run kod ini dan masukkan kata laluan seperti yang tertera di dalam kod.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Nasihat%20(Mudah)/Screenshot%202023-08-29%20223323.png?raw=true)
+![69](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Nasihat%20(Mudah)/Screenshot%202023-08-29%20223323.png?raw=true)
 
 ```Bendera : 3108{rukun_n3g4r4_adlh_p3nt!ng}```
 
 - ### Selamat Malam (Sederhana)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Selamat%20Malam%20(Sederhana)/SELAMATMALAM.png?raw=true)
+![70](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Selamat%20Malam%20(Sederhana)/SELAMATMALAM.png?raw=true)
 
 Kita dibekalkan dengan satu teks fail yang isinya adalah seperti berikut :
 
@@ -622,7 +622,7 @@ Asingkan nombor dan huruf besar daripada teks tersebut dan gabungkan untuk perol
 
 - ### Keretapi Tanah Melayu 🚂 (Mudah)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Keretapi%20Tanah%20Melayu%20(Mudah)/KERETAPI.png?raw=true)
+![71](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Keretapi%20Tanah%20Melayu%20(Mudah)/KERETAPI.png?raw=true)
 
 Tugasan ini juga memberikan kita satu fail teks yang kandungannya adalah seperti berikut :
 
@@ -639,17 +639,17 @@ selepas·peperangan·berakhir.·Selepas·pembukaan·laluan·kereta·api·Taiping
 
 - ### Jerebu (Sederhana)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Jerebu%20(Sederhana)/JEREBU.png?raw=true)
+![72](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Jerebu%20(Sederhana)/JEREBU.png?raw=true)
 
 Tugasan ini memberikan kita satu gambar yang terdiri daripada "Music Sheet".
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Jerebu%20(Sederhana)/Jerebu.png?raw=true)
+![73](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Jerebu%20(Sederhana)/Jerebu.png?raw=true)
 
 Ini merupakan [Music Sheet Cipher](https://www.dcode.fr/music-sheet-cipher), melihat kepada bilangan karakter yang perlu di-decode, tidaklah rajin untuk saya decode satu persatu.
 
 Maka, saya cari "notes-notes" yang kelihatan lain daripada yang lain berpotensi menjadi nombor format bendera```3108```.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Jerebu%20(Sederhana)/21.png?raw=true)
+![74](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Jerebu%20(Sederhana)/21.png?raw=true)
 
 "notes" di atas terlihat janggal, decode dan kita akan peroleh bendera.
 
@@ -657,7 +657,7 @@ Maka, saya cari "notes-notes" yang kelihatan lain daripada yang lain berpotensi 
 
 - ### 1957bit (Sederhana)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Jerebu%20(Sederhana)/JEREBU.png?raw=true)
+![75](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Jerebu%20(Sederhana)/JEREBU.png?raw=true)
 
 Kita diberikan satu fail teks yang berbentuk binary seperti berikut :
 
@@ -685,7 +685,7 @@ Selamat menyambut hari kemerdekaan ke-66!
 
 - ### Mencari Rahsia Si Dia (Mudah)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Mencari%20Rahsia%20Si%20Dia%20(Mudah)/MENCARIRAHSIASIDIA.png?raw=true)
+![76](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Mencari%20Rahsia%20Si%20Dia%20(Mudah)/MENCARIRAHSIASIDIA.png?raw=true)
 
 Kita diberikan dengan satu teks panjang berbentuk spam :
 
@@ -753,11 +753,11 @@ Decode teks di atas menggunakan [Spamimic](https://www.spammimic.com/decode.shtm
 
 - ### Pesan Tentang Bicara (Sederhana)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Pesan%20Tentang%20Bicara%20(Sederhana)/PESANTENTANGBICARA.png?raw=true)
+![77](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Pesan%20Tentang%20Bicara%20(Sederhana)/PESANTENTANGBICARA.png?raw=true)
 
 Kita diberikan satu gambar seperti berikut :
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Pesan%20Tentang%20Bicara%20(Sederhana)/Batuta.png?raw=true)
+![78](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Pesan%20Tentang%20Bicara%20(Sederhana)/Batuta.png?raw=true)
 
 Terdapat [Morse Code](https://morsedecoder.com/) di dalam gambar, decode dan kita peroleh :
 
@@ -769,19 +769,19 @@ Teks ini adalah dalam bentuk [Vigenere Cipher](https://www.dcode.fr/vigenere-cip
 
 - ### 3108 CTF Town (Sederhana)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/3108%20CTF%20Town%20(Sederhana)/3108CTFTOWN.png?raw=true)
+![79](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/3108%20CTF%20Town%20(Sederhana)/3108CTFTOWN.png?raw=true)
 
 Kita diberikan satu fail GBA yang berupa permainan video.
 
 Main permainan video ini menggunakan GBA Emulator dan peroleh bendera.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/3108%20CTF%20Town%20(Sederhana)/photo_2023-08-29_23-52-06.jpg?raw=true)
+![80](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/3108%20CTF%20Town%20(Sederhana)/photo_2023-08-29_23-52-06.jpg?raw=true)
 
 ```Bendera : 3108{b4ntu_4m4l4n_mul1a}```
 
 - ### Nasi Lemak 1 Juta (Mudah)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Nasi%20Lemak%201%20Juta%20(Mudah)/NASILEMAK1JUTA.png?raw=true)
+!81](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Nasi%20Lemak%201%20Juta%20(Mudah)/NASILEMAK1JUTA.png?raw=true)
 
 Untuk tugasan ini, kita diberikan fail ```.exe``` seperti berikut :
 
@@ -791,7 +791,7 @@ untuk mendapatkan bahan rahsia, kita memerlukan 1 juta nasi lemak, tidaklah berd
 
 Dengan itu, kita boleh gunakan [Cheat Engine](https://www.cheatengine.org/downloads.php) untuk menukar nilai nasi lemak menjadi 1 juta lalu memperoleh bahan rahsia.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Nasi%20Lemak%201%20Juta%20(Mudah)/Screenshot%202023-08-30%20001056.png?raw=true)
+![82](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/MISC/Nasi%20Lemak%201%20Juta%20(Mudah)/Screenshot%202023-08-30%20001056.png?raw=true)
 
 ```Bendera : 3108(B2148ED1A1EA228DD33363B6D1134063B59B62DB)```
 
@@ -799,29 +799,29 @@ Dengan itu, kita boleh gunakan [Cheat Engine](https://www.cheatengine.org/downlo
 
 - ### Tugu Negara (Sederhana)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Tugu%20Negara%20(Sederhana)/TUGUNEGARA.png?raw=true)
+![83](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Tugu%20Negara%20(Sederhana)/TUGUNEGARA.png?raw=true)
 
 Kita dibekalkan dengan satu gambar berupa tugu negara.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Tugu%20Negara%20(Sederhana)/Tugu-Negara.png?raw=true)
+![84](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Tugu%20Negara%20(Sederhana)/Tugu-Negara.png?raw=true)
 
 Lihat strings gambar yang diberi menggunakan alat seperti [AperiSolve](https://www.aperisolve.com/) dan peroleh bendera.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Tugu%20Negara%20(Sederhana)/Screenshot%202023-08-30%20004242.png?raw=true)
+![85](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Tugu%20Negara%20(Sederhana)/Screenshot%202023-08-30%20004242.png?raw=true)
 
 ```Bendera : 3108{7ugu_n3g4r4}```
 
 - ### Hari Keramat (Mudah)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Hari%20Keramat%20(Mudah)/HARIKERAMAT.png?raw=true)
+![86](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Hari%20Keramat%20(Mudah)/HARIKERAMAT.png?raw=true)
 
 Kita dibekalkan dengan gambar berikut :
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Hari%20Keramat%20(Mudah)/merdeka7.jpg?raw=true)
+![87](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Hari%20Keramat%20(Mudah)/merdeka7.jpg?raw=true)
 
 Naikkan keterangan gambar tersebut sehingga zahirnya tulisan di dalam gambar.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Hari%20Keramat%20(Mudah)/image(4).jpg?raw=true)
+![88](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Hari%20Keramat%20(Mudah)/image(4).jpg?raw=true)
 
 Gunakan [Steganographic Decoder](https://futureboy.us/stegano/decinput.html) untuk decode gambar dengan ```angKaRahs1a``` sebagai kata laluan.
 
@@ -845,13 +845,13 @@ begitu juga langit.Menurut raja Mohd Yusof Raja Othman,ia seolah angka keramat y
 
 - ### Jalur Gemilang (Mudah)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Jalur%20Gemilang%20(Mudah)/JALURGEMILANG.png?raw=true)
+![89](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Jalur%20Gemilang%20(Mudah)/JALURGEMILANG.png?raw=true)
 
 Gambar yang diberi rosak dan tidak dapat dibuka.
 
 Buka fail tersebut menggunakan alat seperti [HexEdit.it](https://hexed.it/) atau [HxD](https://mh-nexus.de/en/hxd/) untuk analisis dan perhati apa yang menyebabkan ia rosak.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Jalur%20Gemilang%20(Mudah)/Screenshot%202023-08-30%20183029.png?raw=true)
+![90](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Jalur%20Gemilang%20(Mudah)/Screenshot%202023-08-30%20183029.png?raw=true)
 
 Seperti yang dapat kita lihat, fail ini tidak mempunyai header yang betul.
 
@@ -859,27 +859,27 @@ Fail ```.jpg``` biasanya akan mempunyai header dengan nilai ```FF D8 FF```.
 
 Mari kita cari fail yang mempunyai format yang sama dengan gambar diberi sebagai rujukan.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Jalur%20Gemilang%20(Mudah)/Screenshot%202023-08-30%20183146.png?raw=true)
+![91](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Jalur%20Gemilang%20(Mudah)/Screenshot%202023-08-30%20183146.png?raw=true)
 
 Analisis [fail](https://www.yalehome.com/be/fr/content-fragments/news/2023/introducing-the-new-yale-home-app/yale-access-yale-home-16-9jpg) tersebut.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Jalur%20Gemilang%20(Mudah)/Screenshot%202023-08-30%20183223.png?raw=true)
+![92](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Jalur%20Gemilang%20(Mudah)/Screenshot%202023-08-30%20183223.png?raw=true)
 
 Fail ini lengkap dengan header ```FF D8 FF E2```, letakkan nilai ini pada gambar yang diberi dalam tugasan. 
 
 Gambar tidak lagi rosak dan boleh dibuka. Gambar yang diperoleh adalah seperti berikut :
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Jalur%20Gemilang%20(Mudah)/jalurgemilang.jpg?raw=true)
+![93](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Jalur%20Gemilang%20(Mudah)/jalurgemilang.jpg?raw=true)
 
 ```Bendera : 3108{j4lur_g3mil4ng}```
 
 - ### Uncover (Sederhana)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Uncover%20(Sederhana)/UNCOVER.png?raw=true)
+![94](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Uncover%20(Sederhana)/UNCOVER.png?raw=true)
 
 Kita dibekalkan dengan gambar seperti berikut :
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Uncover%20(Sederhana)/merdeka.png?raw=true)
+![95](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/STEGA/Uncover%20(Sederhana)/merdeka.png?raw=true)
 
 Kotak-kotak warna-warni yang terdapat pada bucu kanan dan bucu kiri gambar merupakan [HexaHue Cipher](https://www.dcode.fr/hexahue-cipher).
 
@@ -891,13 +891,13 @@ Decode dan peroleh bendera.
 
 - ### Johan (Mudah)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Johan%20(Mudah)/JOHAN.png?raw=true)
+![96](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Johan%20(Mudah)/JOHAN.png?raw=true)
 
 Fail yang diberikan boleh dianalisis menggunakan alat seperti [Wireshark](https://www.wireshark.org/).
 
 Tukar tapisan kepada ```http``` dan buka fail ```newuser.php```.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Johan%20(Mudah)/Screenshot%202023-08-30%20012210.png?raw=true)
+![97](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Johan%20(Mudah)/Screenshot%202023-08-30%20012210.png?raw=true)
 
 ```
 HTML Form URL Encoded: application/x-www-form-urlencoded
@@ -920,41 +920,41 @@ Kita akan memperoleh satu pautan iaitu :
 
 Pergi ke pautan dan peroleh bendera.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Johan%20(Mudah)/Screenshot%202023-08-30%20012333.png?raw=true)
+![98](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Johan%20(Mudah)/Screenshot%202023-08-30%20012333.png?raw=true)
 
 ```Bendera : 3108{KU4L4_LUMPUR}```
 
 - ### Lagi-Lagi Johan (Mudah)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Lagi-Lagi%20Johan%20(Mudah)/LAGILAGIJOHAN.png?raw=true)
+![99](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Lagi-Lagi%20Johan%20(Mudah)/LAGILAGIJOHAN.png?raw=true)
 
 Gunakan [Wireshark](https://www.wireshark.org/) untuk menganalisis fail yang diberi.
 
 Selepas melihat paket satu persatu, fail ```userinfo.php``` mempunyai bendera di dalamnya.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Lagi-Lagi%20Johan%20(Mudah)/Screenshot%202023-08-30%20013544.png?raw=true)
+![100](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Lagi-Lagi%20Johan%20(Mudah)/Screenshot%202023-08-30%20013544.png?raw=true)
 
 ```Bendera : 3108{P4TR10T1C}```
 
 - ### Jalan Jalan Di Kuala Lumpur (Mudah)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/JALANJALANDIKUALALUMPUR.png?raw=true)
+![101](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/JALANJALANDIKUALALUMPUR.png?raw=true)
 
 Gunakan [Wireshark](https://www.wireshark.org/) untuk export http dan kita akan peroleh fail-fail berikut :
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/Screenshot%202023-08-30%20014143.png?raw=true)
+![102](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/Screenshot%202023-08-30%20014143.png?raw=true)
 
 Bahagian pertama bendera terletak pada ```.----%20-----.pdf```.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/Screenshot%202023-08-30%20014403.png?raw=true)
+![103](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/Screenshot%202023-08-30%20014403.png?raw=true)
 
 Bahagian kedua bendera terletak pada ```flag.txt```
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/Screenshot%202023-08-30%20014231.png?raw=true)
+![104](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/Screenshot%202023-08-30%20014231.png?raw=true)
 
 Bahagian ketiga bendera terletak pada ```galeri.png```
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/galeri.png?raw=true)
+![105](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/NETWORK/Jalan%20Jalan%20di%20Kuala%20Lumpur%20(Mudah)/galeri.png?raw=true)
 
 ```Bendera : 3108{B4P4_M4L4YS1A}```
 
@@ -962,15 +962,15 @@ Bahagian ketiga bendera terletak pada ```galeri.png```
 
 - ### Negeri-Negeri Di Malaysia (Mudah)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Negeri%20-%20Negeri%20di%20Malaysia%20(Mudah)/NEGERIDIMALAYSIA.png?raw=true)
+![106](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Negeri%20-%20Negeri%20di%20Malaysia%20(Mudah)/NEGERIDIMALAYSIA.png?raw=true)
 
 Kita dibekalkan dengan gambar seperti berikut :
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Negeri%20-%20Negeri%20di%20Malaysia%20(Mudah)/negeri-negeri_di_malaysia.jpg?raw=true)
+![107](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Negeri%20-%20Negeri%20di%20Malaysia%20(Mudah)/negeri-negeri_di_malaysia.jpg?raw=true)
 
 Siasat gambar yang diberi menggunakan alat seperti [AperiSolve](https://www.aperisolve.com/) dan lihat bahagian "strings".
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Negeri%20-%20Negeri%20di%20Malaysia%20(Mudah)/Screenshot%202023-08-30%20175544.png?raw=true)
+![108](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Negeri%20-%20Negeri%20di%20Malaysia%20(Mudah)/Screenshot%202023-08-30%20175544.png?raw=true)
 
 Terdapat teks berbentuk [BASE64](https://www.base64decode.org/) yang berpotensi menjadi bendera.
 
@@ -982,15 +982,15 @@ Decode dan peroleh bendera.
 
 - ### Hatta (Sederhana)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Hatta%20(Sederhana)/HATTA.png?raw=true)
+![109](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Hatta%20(Sederhana)/HATTA.png?raw=true)
 
 Gambar yang diberikan adalah seperti berikut :
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Hatta%20(Sederhana)/hatta.jpg?raw=true)
+![110](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Hatta%20(Sederhana)/hatta.jpg?raw=true)
 
 Siasat gambar yang diberi menggunakan alat seperti [AperiSolve](https://www.aperisolve.com/) dan lihat bahagian "strings".
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Hatta%20(Sederhana)/Screenshot%202023-08-30%20180422.png?raw=true)
+![111](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/FORENSICS/Hatta%20(Sederhana)/Screenshot%202023-08-30%20180422.png?raw=true)
 
 Terdapat untaian aneh yang terdiri daripada simbol  ```/``` dan ```.```.
 
@@ -1008,15 +1008,15 @@ Gantikan simbol ```/``` kepada ```1``` dan simbol ```.``` kepada ```0```. Perole
 
 - ### Sarawak (Mudah)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/REVERSE%20ENGINEERING/Sarawak%20(Mudah)/SARAWAK.png?raw=true)
+![112](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/REVERSE%20ENGINEERING/Sarawak%20(Mudah)/SARAWAK.png?raw=true)
 
 Kita dibekalkan dengan satu program yang bertajuk ```perwira```.
 
 Lihat strings program dan peroleh bendera.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/REVERSE%20ENGINEERING/Sarawak%20(Mudah)/Screenshot%202023-08-30%20184754.png?raw=true)
+![113](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/REVERSE%20ENGINEERING/Sarawak%20(Mudah)/Screenshot%202023-08-30%20184754.png?raw=true)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/REVERSE%20ENGINEERING/Sarawak%20(Mudah)/Screenshot%202023-08-30%20184710.png?raw=true)
+![114](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/REVERSE%20ENGINEERING/Sarawak%20(Mudah)/Screenshot%202023-08-30%20184710.png?raw=true)
 
 ```Bendera : 3108{r3nt4p}```
 
@@ -1024,7 +1024,7 @@ Lihat strings program dan peroleh bendera.
 
 - ### YAYASAN DIGITAL MALAYSIA
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/YAYASAN%20DIGITAL%20MALAYSIA/YDM.png?raw=true)
+![115](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/YAYASAN%20DIGITAL%20MALAYSIA/YDM.png?raw=true)
 
 Kesan kod QR yang diberikan dan kita akan dibawa ke pautan video Kempen Kesedaran Anti-Scam.
 
@@ -1034,7 +1034,7 @@ Lihat video itu dan dengar bicara mereka tentang kata laluan beliau.
 
 - ### RE:HACK
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/RE%20HACK/REHACK.png?raw=true)
+![116](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/RE%20HACK/REHACK.png?raw=true)
 
 Pergi ke laman sesawang [rehack.xyz](https://www.rehack.xyz/home/) dan cari pautan blog RE:HACK.
 
@@ -1042,34 +1042,38 @@ Pergi ke laman sesawang [rehack.xyz](https://www.rehack.xyz/home/) dan cari paut
 
 - ### TENANG KOMUNITI
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/TENANG%20KOMUNITI/TENANGKOMUNITI.png?raw=true)
+![117](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/TENANG%20KOMUNITI/TENANGKOMUNITI.png?raw=true)
 
 Cari logo PARC seperti di bawah dan ektsrak cogan kata mereka.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/TENANG%20KOMUNITI/TENANGKOMUNITI.png?raw=true)
+![118](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/TENANG%20KOMUNITI/288899161_5404793069572958_2648965852002003492_n.jpg?raw=true)
 
 ```Bendera : 3108{exitus_acta_probat}```
 
 - ### ASK PENTEST
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/ASK%20PENTEST/ASKPENTEST.png?raw=true)
+![119](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/ASK%20PENTEST/ASKPENTEST.png?raw=true)
 
 Pergi ke pautan [Facebook](http://www.facebook.com/askpentest) yang diberikan dan cari kiriman yang mempunyai komen seperti berikut:
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/ASK%20PENTEST/ASKPENTEST.png?raw=true)
+![120](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/ASK%20PENTEST/photo_2023-08-30_20-26-39.jpg?raw=true)
 
 Pergi ke [pautan](https://pastebin.com/GGktwuct) tersebut dan peroleh bendera.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/ASK%20PENTEST/ASKPENTEST.png?raw=true)
+![121](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/ASK%20PENTEST/Screenshot%202023-08-30%20202140.png?raw=true)
 
 ```Bendera : 3108{4sk_t3rb4ik}```
 
 - ### SCAMGATE
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/SCAMGATE/SCAMGATE.png?raw=true)
+![122](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/SCAMGATE/SCAMGATE.png?raw=true)
 
 Pergi ke laman sesawang [Scamgate](scamgate.com.my) dan cari kiriman berkaitan ```Robin Hood``` di portal mereka.
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/SCAMGATE/SCAMGATE.png?raw=true)
+![123](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/SCAMGATE/Screenshot%202023-08-30%20202017.png?raw=true)
 
 ```Bendera : 3108{vishing}```
+
+* Beberapa terma tidak diterjemahkan bagi kemudahan pembaca.
+### Sekian sahaja write up daripada saya, Maaf jika terdapat kesalahan bahasa, saya juga manusia biasa ~
+# Terima Kasih Daun Keladi
