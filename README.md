@@ -426,7 +426,7 @@ Kita dibekalkan dengan satu pautan ```lemah.bahterasiber.my```.
 
 Pergi ke pautan ini dan kita akan disapa dengan laman log masuk.
 
-!51](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Lemah%20(Mudah)/Screenshot%202023-08-29%20210907.png?raw=true)
+![51](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/WEB/Lemah%20(Mudah)/Screenshot%202023-08-29%20210907.png?raw=true)
 
 Lihat source laman ini dan lihat kod untuk ```auth.js```.
 
