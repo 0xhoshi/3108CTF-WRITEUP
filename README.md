@@ -1074,6 +1074,7 @@ Pergi ke laman sesawang [Scamgate](scamgate.com.my) dan cari kiriman berkaitan `
 
 ```Bendera : 3108{vishing}```
 
-* Beberapa terma tidak diterjemahkan bagi kemudahan pembaca.
+```* Beberapa terma tidak diterjemahkan bagi kemudahan pembaca.```
+
 ### Sekian sahaja write up daripada saya, Maaf jika terdapat kesalahan bahasa, saya juga manusia biasa ~
 # Terima Kasih Daun Keladi
