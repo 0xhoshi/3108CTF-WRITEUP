@@ -53,7 +53,7 @@
 - [**TUGASAN SAMPINGAN (REVERSE ENGINEERING)**](#TUGASAN-SAMPINGAN-REVERSE-ENGINEERING)
   - [Sarawak (Mudah)](#sarawak-mudah)
  
-<!-- [**TUGASAN KHAS : KENALI PENAJA**](#TUGASAN-KHAS-:-KENALI-PENAJA)
+- [**TUGASAN KHAS : KENALI PENAJA**](#TUGASAN-KHAS-:-KENALI-PENAJA)
   - [YAYASAN DIGITAL MALAYSIA](#YAYASAN-DIGITAL-MALAYSIA)
   - [RE:HACK](#RE:HACK)
   - [TENANG KOMUNITI](#TENANG-KOMUNITI)
@@ -531,7 +531,7 @@ Run function ```bendera()``` dan peroleh bendera.
 
 - ### Nasihat (Mudah)
 
-![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/Nasihat%20(Mudah)/NASIHAT.png?raw=true)
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/CRYPTO/1957bit%20(Sederhana)/1957bit.png?raw=true)
 
 Tugasan ini memberikan kita dua fail untuk dimuat turun, salah satunya merupakan fail yang ditulis dalam bahasa pengaturcaraan python.
 
@@ -1019,3 +1019,57 @@ Lihat strings program dan peroleh bendera.
 ![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/REVERSE%20ENGINEERING/Sarawak%20(Mudah)/Screenshot%202023-08-30%20184710.png?raw=true)
 
 ```Bendera : 3108{r3nt4p}```
+
+## TUGASAN KHAS : KENALI PENAJA
+
+- ### YAYASAN DIGITAL MALAYSIA
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/YAYASAN%20DIGITAL%20MALAYSIA/YDM.png?raw=true)
+
+Kesan kod QR yang diberikan dan kita akan dibawa ke pautan video Kempen Kesedaran Anti-Scam.
+
+Lihat video itu dan dengar bicara mereka tentang kata laluan beliau.
+
+```Bendera : 3108{er1}```
+
+- ### RE:HACK
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/RE%20HACK/REHACK.png?raw=true)
+
+Pergi ke laman sesawang [rehack.xyz](https://www.rehack.xyz/home/) dan cari pautan blog RE:HACK.
+
+```Bendera : 3108{blog.rehack.xyz}```
+
+- ### TENANG KOMUNITI
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/TENANG%20KOMUNITI/TENANGKOMUNITI.png?raw=true)
+
+Cari logo PARC seperti di bawah dan ektsrak cogan kata mereka.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/TENANG%20KOMUNITI/TENANGKOMUNITI.png?raw=true)
+
+```Bendera : 3108{exitus_acta_probat}```
+
+- ### ASK PENTEST
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/ASK%20PENTEST/ASKPENTEST.png?raw=true)
+
+Pergi ke pautan [Facebook](http://www.facebook.com/askpentest) yang diberikan dan cari kiriman yang mempunyai komen seperti berikut:
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/ASK%20PENTEST/ASKPENTEST.png?raw=true)
+
+Pergi ke [pautan](https://pastebin.com/GGktwuct) tersebut dan peroleh bendera.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/ASK%20PENTEST/ASKPENTEST.png?raw=true)
+
+```Bendera : 3108{4sk_t3rb4ik}```
+
+- ### SCAMGATE
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/SCAMGATE/SCAMGATE.png?raw=true)
+
+Pergi ke laman sesawang [Scamgate](scamgate.com.my) dan cari kiriman berkaitan ```Robin Hood``` di portal mereka.
+
+![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/SCAMGATE/SCAMGATE.png?raw=true)
+
+```Bendera : 3108{vishing}```
