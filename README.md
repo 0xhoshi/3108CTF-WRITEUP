@@ -213,7 +213,7 @@ Ini bermakna kita perlu bermain dengan box yang diberi, mari mulakan dengan port
 
 ![tugasan3](https://github.com/0xhoshi/3108CTF-WRITEUP/blob/main/3108CTF/PENAJA/Screenshot%202023-08-28%20235814.png?raw=true)
 
-Keputusan menunjukkan 2 port yang terbuka, http/80 dan ssh/22.
+Keputusan menunjukkan 2 port terbuka, http/80 dan ssh/22.
 
 http/80 menandakan wujudnya laman sesawang, kita teruskan dengan menjalankan directory scanning.
 
